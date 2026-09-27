@@ -1,3 +1,9 @@
+# Nombre del integrante: Diego Moreno
+# Cédula del integrante: 32226501
+
+
+
+
 import matplotlib.pyplot as plt
 
 def leer_csv(ruta):
