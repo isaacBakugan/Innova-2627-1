@@ -1,25 +1,30 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-# --- PASO 1: LECTURA DEL CSV ---
+# LECTURA DEL CSV
 def cargar_datos_csv(ruta_archivo):
     entradas = []
     esperados = []
     
-    with open(ruta_archivo, mode='r', encoding='utf-8') as archivo:
+    with open(ruta_archivo, mode='r', encoding='utf-8-sig') as archivo:
         for linea in archivo:
             linea = linea.strip()
             if not linea:  # Saltar líneas vacías
                 continue
             partes = linea.split(',')
-            valores = [float(val) for val in partes]
-            entradas.append(valores[:-1])
-            esperados.append(valores[-1])
+            
+            # Intentar convertir a números (si es encabezado tipo 'x1,x2,y', lo ignora)
+            try:
+                valores = [float(val) for val in partes]
+                entradas.append(valores[:-1])
+                esperados.append(valores[-1])
+            except ValueError:
+                continue  # Salta la fila si contiene texto (ej. encabezado)
             
     return entradas, esperados
 
 
-# --- PASO 2: MATEMÁTICA DEL PERCEPTRÓN ---
+# MATEMÁTICA DEL PERCEPTRÓN
 def calcular_suma_ponderada(x, pesos, sesgo):
     suma = sesgo
     for i in range(len(x)):
@@ -41,7 +46,7 @@ def ejecutar_perceptron(entradas, pesos, sesgo, funcion_activacion):
     return predicciones
 
 
-# --- PASO 3: GENERACIÓN DE GRÁFICOS ---
+# GENERACIÓN DE GRÁFICOS
 def generar_graficos(entradas, esperados, predichos):
     x_coords = [fila[0] for fila in entradas]
     y_coords = [fila[1] if len(fila) > 1 else 0 for fila in entradas]
@@ -83,7 +88,7 @@ def generar_graficos(entradas, esperados, predichos):
     plt.tight_layout()
     plt.show()
 
-# --- FUNCIONES AUXILIARES DE VALIDACIÓN ---
+# FUNCIONES AUXILIARES DE VALIDACIÓN
 
 def pedir_float(mensaje):
     """Garantiza que el usuario ingrese un número entero o decimal válido."""
@@ -116,7 +121,7 @@ def pedir_ruta_csv():
             print(f"  ❌ Error al leer el archivo CSV: {e}. Verifique el formato.")
 
 
-# --- PASO 4: INTERFAZ DE USUARIO ---
+# INTERFAZ DE USUARIO
 def menu_principal():
     print("=== PERCEPTRÓN SIMPLE DE UNA CAPA ===")
     
