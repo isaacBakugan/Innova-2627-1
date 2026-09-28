@@ -1,3 +1,6 @@
+# Nombre del integrante: Jonathan Sarli
+# Cédula del integrante: 30496924
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
