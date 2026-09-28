@@ -47,14 +47,15 @@ def ejecutar_perceptron(entradas, pesos, sesgo, funcion_activacion):
 
 
 # GENERACIÓN DE GRÁFICOS
+# GENERACIÓN DE GRÁFICOS
 def generar_graficos(entradas, esperados, predichos):
     x_coords = [fila[0] for fila in entradas]
     y_coords = [fila[1] if len(fila) > 1 else 0 for fila in entradas]
 
+    # Asignación explícita de colores sólidos (Rojo = 1.0, Azul = 0.0 o -1.0)
+    colores_esperados = ['firebrick' if e == 1.0 else 'navy' for e in esperados]
+    colores_predichos = ['firebrick' if p == 1.0 else 'navy' for p in predichos]
     colores_coincidencia = ['green' if e == p else 'red' for e, p in zip(esperados, predichos)]
-
-    v_min = min(min(esperados), min(predichos))
-    v_max = max(max(esperados), max(predichos))
 
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
 
@@ -65,14 +66,14 @@ def generar_graficos(entradas, esperados, predichos):
     patch_error = mpatches.Patch(color='red', label='Error')
 
     # 1. Valores Esperados
-    axes[0].scatter(x_coords, y_coords, c=esperados, cmap='coolwarm', edgecolors='k', s=100, vmin=v_min, vmax=v_max)
+    axes[0].scatter(x_coords, y_coords, c=colores_esperados, edgecolors='k', s=100)
     axes[0].set_title("1. Valores Esperados")
     axes[0].set_xlabel("Dimensión 1 (x1)")
     axes[0].set_ylabel("Dimensión 2 (x2)")
     axes[0].legend(handles=[patch_rojo, patch_azul], bbox_to_anchor=(0.5, 1.15), loc='upper center', ncol=2, fontsize='small')
 
     # 2. Valores Predichos
-    axes[1].scatter(x_coords, y_coords, c=predichos, cmap='coolwarm', edgecolors='k', s=100, vmin=v_min, vmax=v_max)
+    axes[1].scatter(x_coords, y_coords, c=colores_predichos, edgecolors='k', s=100)
     axes[1].set_title("2. Valores Predichos")
     axes[1].set_xlabel("Dimensión 1 (x1)")
     axes[1].set_ylabel("Dimensión 2 (x2)")
