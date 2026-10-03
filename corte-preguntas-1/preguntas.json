@@ -1,136 +1,121 @@
 {
-  "team": "",
+  "team": "Innova",
   "assignment": "corte-preguntas-1",
   "questions": [
     {
       "id": "tue1-tf-1",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "En la definición de machine learning, el proceso de aprendizaje en sí mismo es considerado la tarea T que debe realizar el sistema.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-tf-2",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "La tasa de error también se conoce como la pérdida esperada 0-1, la cual asigna un valor de 0 a un ejemplo si es clasificado correctamente y 1 si es clasificado incorrectamente.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "tue1-tf-3",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "El aprendizaje supervisado implica observar un vector aleatorio x y aprender su distribución de probabilidad p(x), mientras que el no supervisado aprende a predecir un objetivo y a partir de x estimando p(y|x).",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 5
     },
     {
       "id": "tue1-tf-4",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Para representar un conjunto de datos como una matriz de diseño X, es indispensable que cada ejemplo pueda describirse como un vector y que todos los vectores tengan exactamente la misma longitud.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "tue1-tf-5",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "La regularización se define como cualquier modificación realizada a un algoritmo de aprendizaje con la intención de reducir su error de generalización, pero no su error de entrenamiento.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "tue1-mc-1",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
+      "statement": "¿A qué tipo de tarea de machine learning corresponde predecir un valor escalar numérico (como el precio futuro de un activo o el monto de un reclamo de seguro) a partir de un vector de entrada?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Clasificación",
+        "Regresión",
+        "Transcripción",
+        "Detección de anomalías"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Regresión",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-2",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
+      "statement": "Convertir una fotografía con texto en una secuencia de caracteres de valores ASCII o Unicode como en Google Street View o transformar una señal de audio en texto son ejemplos de:",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Traducción automática",
+        "Transcripción",
+        "Asignación de valores faltantes",
+        "Síntesis y muestreo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Transcripción",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-3",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
+      "statement": "La capacidad de un algoritmo de aprendizaje para desempeñarse correctamente en entradas nuevas no observadas previamente se denomina:",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Sobreajuste",
+        "Generalización",
+        "Capacidad del modelo",
+        "Optimización"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Generalización",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-4",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
+      "statement": "Cuando se extrae un conjunto de validación a partir de los datos de entrenamiento, ¿cuál es la distribución porcentual comúnmente utilizada?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "50% entrenamiento y 50% validación",
+        "80% entrenamiento y 20% validación",
+        "99% entrenamiento y 1% validación",
+        "10% entrenamiento y 90% validación"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "80% entrenamiento y 20% validación",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-mc-5",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
+      "statement": "A medida que aumentamos la capacidad de un modelo, ¿qué comportamiento general suelen presentar el sesgo y la varianza?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El sesgo aumenta y la varianza disminuye",
+        "El sesgo disminuye y la varianza aumenta",
+        "Ambos aumentan exponencialmente",
+        "Ambos disminuyen a cero de manera lineal"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "El sesgo disminuye y la varianza aumenta",
+      "difficulty_level": 5
     },
     {
       "id": "thu1-tf-1",
