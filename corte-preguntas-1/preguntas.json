@@ -121,61 +121,46 @@
       "id": "thu1-tf-1",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "En un esquema de aprendizaje no supervisado, el modelo recibe etiquetas explícitas que le indican cuál es la respuesta correcta para cada dato de entrada.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-2",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "El fenómeno de 'peeking' o filtración de datos ocurre cuando usamos el conjunto de prueba para ajustar o elegir los hiperparámetros del modelo, lo que invalida la evaluación independiente.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu1-tf-3",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "La complejidad muestral (sample complexity) mide la cantidad de operaciones matemáticas o ciclos de CPU necesarios para entrenar un modelo.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "thu1-tf-4",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Con una sola capa oculta lo suficientemente grande en una red neuronal, es posible representar cualquier función continua de las entradas con precisión arbitraria.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "thu1-tf-5",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "El algoritmo de retropropagación calcula los gradientes del error propagando las señales hacia atrás desde la capa de salida mediante la regla de la cadena.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu1-mc-1",
