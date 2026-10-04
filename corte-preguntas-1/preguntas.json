@@ -163,204 +163,204 @@
       "difficulty_level": 3
     },
     {
-      "id": "thu1-mc-1",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "thu1-mc-1",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "En el contexto del aprendizaje de árboles de decisión, ¿qué métrica se utiliza comúnmente para seleccionar el mejor atributo evaluando la reducción esperada de la entropía?[cite: 12, 13]",
+    "options": [
+      "Ganancia de información (Information gain)",
+      "Poda de chi-cuadrado (Chi-squared pruning)",
+      "Tasa de error (Error rate)",
+      "Entropía cruzada (Cross-entropy)"
+    ],
+    "correct_option": "Ganancia de información (Information gain)",
+    "difficulty_level": 4
     },
     {
-      "id": "thu1-mc-2",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "thu1-mc-2",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "Las redes neuronales de una sola capa (perceptrones) están limitadas a aprender fronteras de decisión lineales. Por lo tanto, ¿cuál de las siguientes funciones lógicas NO puede ser aprendida por un perceptrón básico porque sus datos no son linealmente separables?[cite: 39]",
+    "options": [
+      "La función AND",
+      "La función OR",
+      "La función XOR (OR exclusivo)",
+      "La función NOT"
+    ],
+    "correct_option": "La función XOR (OR exclusivo)",
+    "difficulty_level": 3
     },
     {
-      "id": "thu1-mc-3",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "thu1-mc-3",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "¿Qué fenómeno ocurre cuando un algoritmo de aprendizaje genera un modelo muy complejo que se ajusta a patrones aleatorios o ruido en los datos de entrenamiento, provocando que falle al generalizar en datos nuevos?[cite: 14]",
+    "options": [
+      "Sobreajuste (Overfitting)",
+      "Validación cruzada (Cross-validation)",
+      "Regularización (Regularization)",
+      "Parada temprana (Early stopping)"
+    ],
+    "correct_option": "Sobreajuste (Overfitting)",
+    "difficulty_level": 2
     },
     {
-      "id": "thu1-mc-4",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "thu1-mc-4",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "En la regresión lineal multivariada, ¿qué ventaja importante tiene la regularización L1 (en comparación con L2) al momento de manejar los pesos de los atributos?[cite: 30]",
+    "options": [
+      "Tiende a producir un modelo disperso (sparse model) estableciendo muchos pesos efectivamente en cero.",
+      "Garantiza encontrar siempre el mínimo global sin necesidad de descenso de gradiente.",
+      "Aumenta exponencialmente el número de atributos relevantes detectados.",
+      "Es invariante a la rotación de los ejes dimensionales de los datos."
+    ],
+    "correct_option": "Tiende a producir un modelo disperso (sparse model) estableciendo muchos pesos efectivamente en cero.",
+    "difficulty_level": 5
     },
     {
-      "id": "thu1-mc-5",
-      "reading": "thursday-week-1",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "thu1-mc-5",
+    "reading": "thursday-week-1",
+    "type": "multiple_choice",
+    "statement": "Para obtener una estimación precisa del rendimiento del modelo aprovechando todos los datos disponibles, ¿qué técnica divide los datos en 'k' subconjuntos iguales para realizar 'k' rondas de aprendizaje, usando alternativamente cada subconjunto como prueba?[cite: 17]",
+    "options": [
+      "Validación cruzada k-fold (k-fold cross-validation)",
+      "Descenso de gradiente estocástico (Stochastic gradient descent)",
+      "Conjunto de validación de retención (Holdout validation set)",
+      "Aprendizaje PAC (PAC learning)"
+    ],
+    "correct_option": "Validación cruzada k-fold (k-fold cross-validation)",
+    "difficulty_level": 3
     },
     {
-      "id": "tue2-tf-1",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+    "id": "tue2-tf-1",
+    "reading": "tuesday-week-2",
+    "type": "true_false",
+    "statement": "El perceptrón de Rosenblatt es básicamente una red neuronal de una sola capa y está limitado a la clasificación de patrones linealmente separables.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 2
     },
     {
-      "id": "tue2-tf-2",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+    "id": "tue2-tf-2",
+    "reading": "tuesday-week-2",
+    "type": "true_false",
+    "statement": "El teorema de aproximación universal garantiza que un perceptrón multicapa proporciona una representación exacta de una función continua arbitraria, en lugar de solo una aproximación.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Falso",
+    "difficulty_level": 6
     },
     {
-      "id": "tue2-tf-3",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+    "id": "tue2-tf-3",
+    "reading": "tuesday-week-2",
+    "type": "true_false",
+    "statement": "En el aprendizaje en línea (online learning), los ajustes a los pesos sinápticos del perceptrón multicapa se realizan después de presentar todos los ejemplos del conjunto de entrenamiento que constituyen una época.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Falso",
+    "difficulty_level": 4
     },
     {
-      "id": "tue2-tf-4",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+    "id": "tue2-tf-4",
+    "reading": "tuesday-week-2",
+    "type": "true_false",
+    "statement": "La inclusión de un término de momento (momentum) en el algoritmo de retropropagación tiene un efecto estabilizador cuando la derivada parcial del error con respecto al peso tiene signos opuestos en iteraciones consecutivas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 7
     },
     {
-      "id": "tue2-tf-5",
-      "reading": "tuesday-week-2",
-      "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+    "id": "tue2-tf-5",
+    "reading": "tuesday-week-2",
+    "type": "true_false",
+    "statement": "Cuando una red neuronal aprende demasiados ejemplos de entrada-salida, puede terminar memorizando los datos de entrenamiento (sobreajuste), lo que le hace perder la capacidad de generalizar entre patrones similares.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct_option": "Verdadero",
+    "difficulty_level": 3
     },
     {
-      "id": "tue2-mc-1",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "tue2-mc-1",
+    "reading": "tuesday-week-2",
+    "type": "multiple_choice",
+    "statement": "¿Cuál de las siguientes NO es una característica básica de los perceptrones multicapa?",
+    "options": [
+      "Cada modelo de neurona incluye una función de activación no lineal que es diferenciable.",
+      "La red contiene una o más capas ocultas.",
+      "La red tiene un alto grado de conectividad determinado por los pesos sinápticos.",
+      "La red solo puede clasificar patrones linealmente separables."
+    ],
+    "correct_option": "La red solo puede clasificar patrones linealmente separables.",
+    "difficulty_level": 3
     },
     {
-      "id": "tue2-mc-2",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "tue2-mc-2",
+    "reading": "tuesday-week-2",
+    "type": "multiple_choice",
+    "statement": "En el algoritmo de retropropagación, ¿cómo se determina la señal de error para una neurona ubicada en una capa oculta?",
+    "options": [
+      "Usando directamente la respuesta deseada proporcionada para esa neurona.",
+      "De forma recursiva y hacia atrás, en función de las señales de error de todas las neuronas a las que está conectada directamente.",
+      "Se calcula aleatoriamente en cada iteración del algoritmo.",
+      "No se requiere señal de error para las neuronas ocultas."
+    ],
+    "correct_option": "De forma recursiva y hacia atrás, en función de las señales de error de todas las neuronas a las que está conectada directamente.",
+    "difficulty_level": 6
     },
     {
-      "id": "tue2-mc-3",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "tue2-mc-3",
+    "reading": "tuesday-week-2",
+    "type": "multiple_choice",
+    "statement": "Las redes neuronales convolucionales combinan tres ideas arquitectónicas para asegurar cierto grado de invariancia. ¿Cuáles son?",
+    "options": [
+      "Conexiones totalmente conectadas, funciones de activación lineales y aprendizaje por lotes.",
+      "Campos receptivos locales, pesos compartidos y submuestreo espacial o temporal.",
+      "Validación cruzada, retropropagación y minimización del riesgo empírico.",
+      "Aprendizaje no supervisado, capas ocultas densas y reducción de dimensionalidad."
+    ],
+    "correct_option": "Campos receptivos locales, pesos compartidos y submuestreo espacial o temporal.",
+    "difficulty_level": 5
     },
     {
-      "id": "tue2-mc-4",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "tue2-mc-4",
+    "reading": "tuesday-week-2",
+    "type": "multiple_choice",
+    "statement": "Según el concepto de validación cruzada, ¿cuándo debería detenerse idealmente el entrenamiento de una red neuronal para obtener una buena generalización?",
+    "options": [
+      "Cuando el error en el conjunto de entrenamiento llega a cero absoluto.",
+      "Cuando se alcanza el número máximo de épocas permitidas por el hardware.",
+      "En el número de épocas correspondiente al punto mínimo de la curva de rendimiento del error en el conjunto de validación cruzada.",
+      "Cuando los pesos sinápticos de las capas ocultas alcanzan un valor de 1."
+    ],
+    "correct_option": "En el número de épocas correspondiente al punto mínimo de la curva de rendimiento del error en el conjunto de validación cruzada.",
+    "difficulty_level": 5
     },
     {
-      "id": "tue2-mc-5",
-      "reading": "tuesday-week-2",
-      "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
-      ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+    "id": "tue2-mc-5",
+    "reading": "tuesday-week-2",
+    "type": "multiple_choice",
+    "statement": "¿Por qué el perceptrón de una sola capa de Rosenblatt no puede resolver el problema del OR exclusivo (XOR)?",
+    "options": [
+      "Porque requiere demasiadas neuronas ocultas para procesar las entradas.",
+      "Porque los patrones de entrada del problema XOR no son linealmente separables mediante una sola línea recta como frontera de decisión.",
+      "Porque la función de activación utilizada no es diferenciable.",
+      "Porque el perceptrón simple solo acepta valores de entrada continuos y el XOR usa valores discretos."
+    ],
+    "correct_option": "Porque los patrones de entrada del problema XOR no son linealmente separables mediante una sola línea recta como frontera de decisión.",
+    "difficulty_level": 4
     },
     {
       "id": "thu2-tf-1",
