@@ -366,131 +366,131 @@
       "id": "thu2-tf-1",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 2",
+      "statement": "Una red feedfoward transforma una entrada x en una salida y haciendo que la informacion fluya hacia adelante, sin ciclos de retoalimentacion",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu2-tf-2",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 2",
+      "statement": "En una red neuronal feedfoward, el objetivo principal es aproximar una funcion desconocida f* mediante una funcion parametrizada f(x; θ)",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-3",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 2",
+      "statement": "Las capas ocultas reciben ese nombre porque los datos de entrenamiento especifican cual debe ser la salida de cada una de sus unidades",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-tf-4",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 2",
+      "statement": "El teorima de aproximacion universal garantiza que una red con una sola capa oculta siempre sera eficiente en un numero de unidades y facil de entrenar",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-tf-5",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 2",
+      "statement": "Backpropation no es por si solo un algoritmo completo de aprendizaje, sino un metodo eficiente para calcular gradientes que luego usa un optimizador",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-1",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Por qué las redes feedforward suelen necesitar funciones de activación no lineales en sus capas ocultas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque convierten cualquier problema en no supervisado",
+        "Porque eliminan la necesidad de entrenar pesos",
+        "Porque reducen automáticamente el número de clases",
+        "Porque una composicion de transformaciones lineales sigue siendo lineal"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Porque una composicion de transformaciones lineales sigue siendo lineal",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-mc-2",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Que tipo de unidad de salida es apropiada cuando se modela una variable binaria con distribución Bernoulli?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Unidad ReLU",
+        "Unidad sigmoid",
+        "Unidad maxout",
+        "Unidad lineal sin activacion"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Unidad sigmiod",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-mc-3",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 2",
+      "statement": "Para clasificar una entrada en una de varias clases mutuamente excluyentes, ¿que unidad de salida se usa comunmente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "ReLU leaky",
+        "Unidad identidad",
+        "Softmax",
+        "Tanh",
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Softmax",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-mc-4",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Cual es una razon por la que las unidades ReLU se volvieron populares como unidades ocultas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Facilitan el paso de gradientes cuando están activas",
+        "Siempre producen salidas negativas",
+        "Obligan a que la red sea lineal",
+        "Eliminan por completo el sobreajuste"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Facilitan el paso de gradientes cuando están activas",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-mc-5",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 2",
+      "statement": "¿que ventaja pueden tener las redes profundas frente a redes poco profundas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Pueden representar algunas funciones con muchas menos unidades",
+        "No requieren datos de entrenamiento",
+        "No necesitan funciones de costo",
+        "Siempre encuentran el minimo global exacto"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Pueden representar algunas funciones con muchas menos unidades",
+      "difficulty_level": 6
     }
   ]
 }
