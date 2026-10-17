@@ -26,7 +26,7 @@
       ],
       "correct_option": "Falso",
       "difficulty_level": 4,
-      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image." Es falsa porque la convolución no es equivariante por naturaleza a la escala ni a la rotación; únicamente presenta equivariancia frente a las traslaciones de la entrada.
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
     },
     {
       "id": "tue3-tf-3",
@@ -52,7 +52,7 @@
       ],
       "correct_option": "Falso",
       "difficulty_level": 4,
-      "source_quote": "This does not affect the runtime of forward propagation—it is still O(k x n)—but it does further reduce the storage requirements of the model to k parameters." Es falsa porque reducir el número de parámetros no penaliza la velocidad. El tiempo de ejecución en la propagación hacia adelante se mantiene igual, manteniéndose en una complejidad O(k×n).
+      "source_quote": "This does not affect the runtime of forward propagation—it is still O(k x n)—but it does further reduce the storage requirements of the model to k parameters."
     },
     {
       "id": "tue3-tf-5",
@@ -141,72 +141,72 @@
       "correct_option": "Se amplía de manera indirecta, permitiendo capturar regiones más extensas o la totalidad de la imagen de entrada",
       "difficulty_level": 3,
       "source_quote": "In a deep convolutional network, units in the deeper layers may indirectly interact with a larger portion of the input, as shown in figure 9.4. This allows the network to efficiently describe complicated interactions between many variables..."
-    }
+    },
     {
       "id": "thu3-tf-1",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 3",
+      "statement": "La red de Hopfield, inventada por John Hopfield en 1982, es una forma de red neuronal artificial recurrente que utiliza un sistema de retroalimentación en bucle múltiple.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "The Hopfield network is a form of recurrent artificial neural network invented by John Hopfield in 1982. It consists of a set of neurons and a corresponding set of unit time delays, formatting a multiple-loop feedback system."
     },
     {
       "id": "thu3-tf-2",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 3",
+      "statement": "La red desarrollada por Grossberg fue inspirada biológicamente en el funcionamiento del sistema auditivo de los mamíferos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "This network was inspired by the operation of the mammalian visual system."
     },
     {
       "id": "thu3-tf-3",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 3",
+      "statement": "Según Grossberg, el sistema visual realiza dos tipos de procesamiento compensatorio: la segmentación emergente (que completa bordes faltantes) y el rellenado de características (que completa color y brillo).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "Grossberg suggests that there are two primary types of compensatory processing involved. The first, which he calls emergent segmentation, completes missing boundaries. The second, which he calls featural filling-in, fills in the color and brightness inside the resulting boundaries."
     },
     {
       "id": "thu3-tf-4",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 3",
+      "statement": "En la topología de las redes neuronales celulares propuestas por Chua y Yang, cada célula se conecta directamente con todas las demás células que conforman la red.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "namely, any cell in a cellular neural network is connected only to its neighbor cells. The adjacent cells can interact directly with each other."
     },
     {
       "id": "thu3-tf-5",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 3",
+      "statement": "En el contexto de los sistemas neurodinámicos, la no linealidad se considera una propiedad fundamental e indispensable para poder construir una máquina de computación universal.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
-    },
+      "difficulty_level": 4,
+      "source_quote": "A neurodynamic system is inherently nonlinear. In fact, nonlinearity is essential for creating a universal computing machine."
+    }
     {
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
