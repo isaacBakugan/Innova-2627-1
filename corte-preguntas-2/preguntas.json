@@ -71,77 +71,77 @@
       "id": "tue3-mc-1",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 3",
+      "statement": "En la terminología habitual de las redes convolucionales, ¿cómo se les conoce al segundo argumento de la operación (los parámetros) y al tensor resultante en la salida?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Entrada (input) y Matriz de diseño",
+        "Kernel (o filtro) y Mapa de características (feature map)",
+        "Sesgo (bias) y Capa oculta",
+        "Vector de pesos y Tensor de gradiente"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Kernel (o filtro) y Mapa de características (feature map)",
+      "difficulty_level": 2,
+      "source_quote": "the second argument (in this example, the function w) as the kernel. The output is sometimes referred to as the feature map."
     },
     {
       "id": "tue3-mc-2",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cuáles son las tres ideas centrales que aprovecha la operación de convolución para mejorar el rendimiento de un modelo de machine learning?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+        "Descenso de gradiente, función sigmoide y regularización L1",
+        "Normalización por lotes, dropout y aumento de datos",
+        "Conexiones totalmente conectadas, inicialización de Xavier y filtros de Gabor"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Interacciones dispersas, compartición de parámetros y representaciones equivariantes",
+      "difficulty_level": 3,
+      "source_quote": "Convolution leverages three important ideas that can help improve a machine learning system: sparse interactions, parameter sharing and equivariant representations."
     },
     {
       "id": "tue3-mc-3",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 3",
+      "statement": "Matemáticamente, decimos que una función f(x) es equivariante con respecto a una transformación g si satisface la condición:",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "f(g(x)) = g(f(x))",
+        "f(g(x)) = f(x)",
+        "f(g(x)) = 0",
+        "f(g(x)) = g(x)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "f(g(x)) = g(f(x))",
+      "difficulty_level": 4,
+      "source_quote": "To say a function is equivariant means that if the input changes, the output changes in the same way. Specifically, a function f(x) is equivariant to a function g if f(g(x)) = g(f(x))."
     },
     {
       "id": "tue3-mc-4",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 3",
+      "statement": "Tomando como base los estudios neurocientíficos de la corteza V1, ¿en qué se diferencian fundamentalmente las células simples de las células complejas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Las células simples responden linealmente en un campo receptivo pequeño; las complejas son invariantes a pequeños desplazamientos de la característica",
+        "Las células simples procesan color; las complejas procesan sonido",
+        "Las células simples carecen de campo receptivo; las complejas están totalmente conectadas",
+        "Las células simples se ubican en la retina; las complejas en el nervio óptico"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Las células simples responden linealmente en un campo receptivo pequeño; las complejas son invariantes a pequeños desplazamientos de la característica",
+      "difficulty_level": 4,
+      "source_quote": "A simple cell's activity can to some extent be characterized by a linear function of the image in a small, spatially localized receptive field... complex cells are invariant to small shifts in the position of the feature."
     },
     {
       "id": "tue3-mc-5",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué sucede con el campo receptivo (receptive field) de las unidades a medida que avanzamos hacia las capas más profundas de una red convolucional?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se reduce de forma progresiva hasta depender de un solo píxel de la entrada",
+        "Conserva una dimensión fija equivalente al tamaño del kernel inicial",
+        "Se amplía de manera indirecta, permitiendo capturar regiones más extensas o la totalidad de la imagen de entrada",
+        "Se vuelve totalmente independiente de las dimensiones del tensor de entrada"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
-    },
+      "correct_option": "Se amplía de manera indirecta, permitiendo capturar regiones más extensas o la totalidad de la imagen de entrada",
+      "difficulty_level": 3,
+      "source_quote": "In a deep convolutional network, units in the deeper layers may indirectly interact with a larger portion of the input, as shown in figure 9.4. This allows the network to efficiently describe complicated interactions between many variables..."
+    }
     {
       "id": "thu3-tf-1",
       "reading": "thursday-week-3",
