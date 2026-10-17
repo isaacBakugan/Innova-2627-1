@@ -6,66 +6,66 @@
       "id": "tue3-tf-1",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 3",
+      "statement": "Las redes convolucionales logran interacciones dispersas (sparse connectivity) al hacer que el kernel tenga un tamaño menor que la entrada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Convolutional networks, however, typically have sparse interactions (also referred to as sparse connectivity or sparse weights). This is accomplished by making the kernel smaller than the input."
     },
     {
       "id": "tue3-tf-2",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 3",
+      "statement": "La operación de convolución es naturalmente equivariante frente a transformaciones de escala y rotación en una imagen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image." Es falsa porque la convolución no es equivariante por naturaleza a la escala ni a la rotación; únicamente presenta equivariancia frente a las traslaciones de la entrada.
     },
     {
       "id": "tue3-tf-3",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 3",
+      "statement": "Aplicar una función de pooling contribuye a que la representación de la red sea aproximadamente invariante frente a pequeñas traslaciones en la entrada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "In all cases, pooling helps to make the representation approximately invariant to small translations of the input."
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 3",
+      "statement": "Aunque la compartición de parámetros disminuye los requerimientos de memoria del modelo, incrementa considerablemente el tiempo de cómputo en la propagación hacia adelante (forward pass).",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "This does not affect the runtime of forward propagation—it is still O(k x n)—but it does further reduce the storage requirements of the model to k parameters." Es falsa porque reducir el número de parámetros no penaliza la velocidad. El tiempo de ejecución en la propagación hacia adelante se mantiene igual, manteniéndose en una complejidad O(k×n).
     },
     {
       "id": "tue3-tf-5",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 3",
+      "statement": "La convolución tiled (tiled convolution) aprende un conjunto de kernels sobre los cuales va alternando a medida que se desplaza por el espacio.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "Rather than learning a separate set of weights at every spatial location, we learn a set of kernels that we rotate through as we move through space."
     },
     {
       "id": "tue3-mc-1",
