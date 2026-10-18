@@ -1,5 +1,5 @@
 {
-  "team": "",
+  "team": "Innova",
   "assignment": "corte-preguntas-2",
   "questions": [
     {
@@ -211,82 +211,82 @@
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "¿Qué función de transferencia se utiliza en el modelo discreto inicial de la red de Hopfield presentado en la ecuación (5.2)?",
+      "statement": "En el modelo discreto normalizado de Hopfield, ¿qué ocurre con el estado de una neurona cuando su campo local inducido es igual a cero?",
       "options": [
-        "satlins (saturating linear)",
-        "sigmoide logística",
-        "rectificador lineal (ReLU)",
-        "tangente hiperbólica sin saturación"
+        "Cambia siempre al estado +1",
+        "Conserva su estado anterior",
+        "Cambia siempre al estado −1",
+        "Alterna obligatoriamente entre +1 y −1"
       ],
-      "correct_option": "satlins (saturating linear)",
+      "correct_option": "Conserva su estado anterior",
       "difficulty_level": 3,
-      "source_quote": "where satlins is the transfer function that is linear in the range [-1, 1], and saturates at 1 for inputs greater than 1 and at -1 for inputs less than -1."
+      "source_quote": "Note that neuron j remains in its previous state if vj(k + 1) is zero."
     },
     {
       "id": "thu3-mc-2",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "¿Qué término utiliza Stephen Grossberg para describir el proceso de normalización mediante el cual el sistema visual compensa la intensidad lumínica absoluta de una escena?",
+      "statement": "¿Qué función realiza la primera capa de la red competitiva de Grossberg sobre el patrón de entrada?",
       "options": [
-        "segmentación emergente",
-        "descuento del iluminante (discounting the illuminant)",
-        "llenado perceptual (featural filling-in)",
-        "constancia de escala"
+        "Aumenta el contraste mediante conexiones de retroalimentación",
+        "Almacena los patrones reconocidos en los pesos adaptativos",
+        "Calcula una función de Lyapunov para cada patrón recibido",
+        "Normaliza la intensidad del patrón de entrada"
       ],
-      "correct_option": "descuento del iluminante (discounting the illuminant)",
-      "difficulty_level": 5,
-      "source_quote": "Since we see things in so many different lighting conditions, if we were not able to compensate for the absolute intensity of a scene, we would never learn to recognize things. Grossberg calls this process of normalization 'discounting the illuminant.'"
+      "correct_option": "Normaliza la intensidad del patrón de entrada",
+      "difficulty_level": 2,
+      "source_quote": "Layer 1 of the Grossberg network receives external inputs and normalizes the intensity of the input pattern"
     },
     {
       "id": "thu3-mc-3",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "En una red neuronal celular (CNN de Chua y Yang), ¿cuál es la única componente no lineal presente en el circuito de cada celda?",
+      "statement": "En la red de Grossberg, ¿por qué los pesos adaptativos W² se denominan memoria a largo plazo (long-term memory)?",
       "options": [
-        "El capacitor lineal de fuga C",
-        "La resistencia lineal de dispersión Rx",
-        "La fuente de corriente controlada por voltaje por tramos (piecewise linear)",
-        "La fuente de voltaje independiente Eij"
+        "Porque sus filas representan patrones almacenados que la red podrá reconocer",
+        "Porque almacenan exclusivamente el estado inicial de cada ensayo",
+        "Porque impiden modificar las conexiones después de la primera entrada",
+        "Porque sustituyen las activaciones de ambas capas por una salida constante"
       ],
-      "correct_option": "La fuente de corriente controlada por voltaje por tramos (piecewise linear)",
-      "difficulty_level": 6,
-      "source_quote": "The only nonlinear element in each cell is a piecewise linear voltage-controlled current source Iyx = (1/Rx)f(vxij) with characteristic f(·) as shown in Figure 5.17."
+      "correct_option": "Porque sus filas representan patrones almacenados que la red podrá reconocer",
+      "difficulty_level": 3,
+      "source_quote": "Grossberg calls these adaptive weights the long-term memory (LTM). This is because the rows of W² will represent patterns that have been stored and that the network will be able to recognize."
     },
     {
       "id": "thu3-mc-4",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "¿Qué propiedad esencial de la matriz de pesos sinápticos se asume para facilitar el análisis de estabilidad de la red de Hopfield mediante funciones de Lyapunov?",
+      "statement": "Según las definiciones de estabilidad de la lectura, ¿qué dos propiedades debe reunir un estado de equilibrio para ser asintóticamente estable?",
       "options": [
-        "Que la matriz sea estrictamente diagonal",
-        "Que la matriz sea simétrica (wji = wij)",
-        "Que la matriz posea determinante nulo",
-        "Que la matriz tenga valores propios únicamente imaginarios"
+        "Tener pesos simétricos y carecer de funciones de activación",
+        "Ser convergente, aunque las trayectorias cercanas puedan alejarse arbitrariamente",
+        "Ser estable y convergente",
+        "Permanecer acotado, sin necesidad de que las trayectorias se acerquen al equilibrio"
       ],
-      "correct_option": "Que la matriz sea simétrica (wji = wij)",
-      "difficulty_level": 7,
-      "source_quote": "To facilitate the stability analysis of Hopfield network (5.28), we make the following three assumptions [Haykin, 2009]: 1. The matrix of synaptic weights is symmetric, that is, wji = wij for all i and j"
+      "correct_option": "Ser estable y convergente",
+      "difficulty_level": 4,
+      "source_quote": "The equilibrium state X is said to be asymptotically stable if it is both stable and convergent."
     },
     {
       "id": "thu3-mc-5",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "¿Cómo se define la condición de estabilidad global asintótica en un sistema neurodinámico autónomo?",
+      "statement": "¿Qué conjunto de condiciones permite aplicar el teorema de Cohen–Grossberg presentado en la lectura para garantizar que la función de Lyapunov no aumente con el tiempo?",
       "options": [
-        "El sistema permanece indefinidamente oscilando alrededor de un ciclo límite periódico",
-        "El estado diverge hacia el infinito para cualquier condición inicial no acotada",
-        "El punto de equilibrio es estable y solo converge si la condición inicial está a una distancia infinitesimal",
-        "El punto de equilibrio es estable y todas las trayectorias del sistema convergen hacia dicho equilibrio cuando el tiempo t tiende a infinito"
+        "Asimetría de los pesos, negatividad de los coeficientes y activaciones decrecientes",
+        "Simetría de los pesos, no negatividad de las funciones a_j y monotonía de las funciones de activación",
+        "Ausencia de retroalimentación, activaciones lineales y entradas constantes",
+        "Conectividad completa, pesos aleatorios y actualizaciones simultáneas"
       ],
-      "correct_option": "El punto de equilibrio es estable y todas las trayectorias del sistema convergen hacia dicho equilibrio cuando el tiempo t tiende a infinito",
-      "difficulty_level": 8,
-      "source_quote": "Definition 5.4 The equilibrium state x is said to be globally asymptotically stable if it is stable and all trajectories of the system converge to x as time t approaches infinity."
+      "correct_option": "Simetría de los pesos, no negatividad de las funciones a_j y monotonía de las funciones de activación",
+      "difficulty_level": 4,
+      "source_quote": "Provided that the system of nonlinear differential equations (5.24) satisfies the conditions of symmetry, nonnegativity, and monotonicity"
     },
     {
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "El modelo Transformer prescinde totalmente de mecanismos de recurrencia y circunvolución, basándose únicamente en mecanismos de atención.",
+      "statement": "La arquitectura Transformer propuesta en el artículo se basa en mecanismos de atención y prescinde de la recurrencia y de las convoluciones para modelar las secuencias.",
       "options": [
         "Verdadero",
         "Falso"
@@ -299,408 +299,408 @@
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "En el mecanismo de atención Dot-Product sin escalar, los gradientes tienden a crecer indefinidamente a medida que aumenta la dimensión dk.",
+      "statement": "Las transformaciones lineales de las redes feed-forward del Transformer utilizan los mismos parámetros en todas las capas del modelo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Falso",
-      "difficulty_level": 7,
-      "source_quote": "We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients."
+      "difficulty_level": 3,
+      "source_quote": "While the linear transformations are the same across different positions, they use different parameters from layer to layer."
     },
     {
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "Tanto el encoder como el decoder del Transformer base están compuestos por una pila de N = 6 capas idénticas.",
+      "statement": "Las codificaciones posicionales tienen la misma dimensión que los embeddings, lo que permite sumar ambas representaciones.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Verdadero",
+      "difficulty_level": 2,
+      "source_quote": "The positional encodings have the same dimension dmodel as the embeddings, so that the two can be summed."
+    },
+    {
+      "id": "tue4-tf-4",
+      "reading": "tuesday-week-4",
+      "type": "true_false",
+      "statement": "En la atención entre codificador y decodificador, las consultas (queries) provienen del codificador, mientras que las claves (keys) y los valores (values) provienen del decodificador.",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder."
+    },
+    {
+      "id": "tue4-tf-5",
+      "reading": "tuesday-week-4",
+      "type": "true_false",
+      "statement": "Según los resultados descritos en el artículo, el suavizado de etiquetas (label smoothing) perjudica la perplejidad, pero mejora la exactitud y la puntuación BLEU.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 3,
-      "source_quote": "The encoder is composed of a stack of N = 6 identical layers... The decoder is also composed of a stack of N = 6 identical layers."
-    },
-    {
-      "id": "tue4-tf-4",
-      "reading": "tuesday-week-4",
-      "type": "true_false",
-      "statement": "En la subcapa de self-attention del decodificador se permite que las posiciones atiendan libremente a posiciones futuras o subsiguientes.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Falso",
-      "difficulty_level": 5,
-      "source_quote": "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking... ensures that the predictions for position i can depend only on the known outputs at positions less than i."
-    },
-    {
-      "id": "tue4-tf-5",
-      "reading": "tuesday-week-4",
-      "type": "true_false",
-      "statement": "El número mínimo de operaciones secuenciales requeridas por capa en Self-Attention es de orden O(1), a diferencia de las capas recurrentes que requieren O(n).",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 8,
-      "source_quote": "As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations."
+      "source_quote": "This hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
     },
     {
       "id": "tue4-mc-1",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "¿Por qué factor se dividen los productos punto en el cálculo de Scaled Dot-Product Attention?",
+      "statement": "En la atención por producto punto escalado (scaled dot-product attention), ¿cuál es el propósito de dividir los productos punto entre la raíz cuadrada de d_k?",
       "options": [
-        "Por la raíz cuadrada de la dimensión dk",
-        "Por el tamaño del vocabulario de entrada",
-        "Por el número total de capas N del encoder",
-        "Por la longitud máxima de la secuencia"
+        "Garantizar que todos los valores reciban el mismo peso de atención",
+        "Aumentar la magnitud de los productos punto para concentrar más la distribución softmax",
+        "Evitar que productos punto de gran magnitud lleven a softmax a regiones con gradientes extremadamente pequeños",
+        "Sustituir la normalización softmax por una suma directa de los valores"
       ],
-      "correct_option": "Por la raíz cuadrada de la dimensión dk",
-      "difficulty_level": 2,
-      "source_quote": "We compute the dot products of the query with all keys, divide each by sqrt(dk), and apply a softmax function to obtain the weights on the values."
+      "correct_option": "Evitar que productos punto de gran magnitud lleven a softmax a regiones con gradientes extremadamente pequeños",
+      "difficulty_level": 4,
+      "source_quote": "We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients"
     },
     {
       "id": "tue4-mc-2",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "¿Cuál es la dimensión interna (dff) empleada en las redes feed-forward dentro de cada capa del modelo base?",
+      "statement": "¿Qué ventaja ofrece la atención multicabeza (multi-head attention) frente a una única cabeza de atención?",
       "options": [
-        "512",
-        "2048",
-        "1024",
-        "64"
+        "Permite atender conjuntamente a información de distintos subespacios de representación y de distintas posiciones",
+        "Obliga a todas las cabezas a utilizar una única proyección aprendida y los mismos pesos de atención",
+        "Elimina la necesidad de utilizar consultas, claves y valores",
+        "Restringe cada posición a atender únicamente al token inmediatamente anterior"
       ],
-      "correct_option": "2048",
-      "difficulty_level": 5,
-      "source_quote": "The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality dff = 2048."
+      "correct_option": "Permite atender conjuntamente a información de distintos subespacios de representación y de distintas posiciones",
+      "difficulty_level": 3,
+      "source_quote": "Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions."
     },
     {
       "id": "tue4-mc-3",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "¿Qué función cumplen las funciones sinusoidales de codificación posicional en el Transformer?",
+      "statement": "¿Para qué se impide que una posición atienda a posiciones posteriores en la subcapa de autoatención del decodificador?",
       "options": [
-        "Reducir la dispersión de los gradientes en el optimizador Adam",
-        "Normalizar las salidas de las capas densas intermedias",
-        "Permitir al modelo incorporar y atender información sobre el orden relativo o absoluto de la secuencia",
-        "Calcular matrices de pesos compartidos entre el encoder y el decoder"
+        "Para impedir que el decodificador consulte las salidas del codificador",
+        "Para forzar que la secuencia de salida tenga la misma longitud que la de entrada",
+        "Para eliminar las conexiones residuales del decodificador",
+        "Para preservar la propiedad autorregresiva y evitar el acceso a tokens de salida futuros"
       ],
-      "correct_option": "Permitir al modelo incorporar y atender información sobre el orden relativo o absoluto de la secuencia",
-      "difficulty_level": 6,
-      "source_quote": "in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence. To this end, we add 'positional encodings' to the input embeddings"
+      "correct_option": "Para preservar la propiedad autorregresiva y evitar el acceso a tokens de salida futuros",
+      "difficulty_level": 3,
+      "source_quote": "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions."
     },
     {
       "id": "tue4-mc-4",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "¿De dónde provienen las claves (keys) y valores (values) en la subcapa de atención cruzada (encoder-decoder attention) del decodificador?",
+      "statement": "Según la comparación del artículo, ¿cómo crece el número mínimo de operaciones secuenciales de una capa de autoatención frente al de una capa recurrente, para una secuencia de longitud n?",
       "options": [
-        "De la salida de la capa de embeddings del decoder",
-        "De las representaciones generadas por la salida del encoder",
-        "De las proyecciones lineales de la capa previa del decoder",
-        "De una matriz fija de parámetros posicionales aprendidos"
+        "Autoatención: O(n); capa recurrente: O(1)",
+        "Autoatención: O(1); capa recurrente: O(n)",
+        "Autoatención: O(n²); capa recurrente: O(n²)",
+        "Autoatención: O(log n); capa recurrente: O(1)"
       ],
-      "correct_option": "De las representaciones generadas por la salida del encoder",
-      "difficulty_level": 7,
-      "source_quote": "In 'encoder-decoder attention' layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder."
+      "correct_option": "Autoatención: O(1); capa recurrente: O(n)",
+      "difficulty_level": 4,
+      "source_quote": "a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations."
     },
     {
       "id": "tue4-mc-5",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "Según la Tabla 1 del artículo, ¿cuál es la longitud máxima de camino (Maximum Path Length) entre dos posiciones cualesquiera en una capa de Self-Attention?",
+      "statement": "¿Cómo varía la tasa de aprendizaje con el esquema de calentamiento (warmup) utilizado en el artículo?",
       "options": [
-        "O(n)",
-        "O(log_k(n))",
-        "O(n · d)",
-        "O(1)"
+        "Permanece constante durante todo el entrenamiento",
+        "Disminuye linealmente desde el primer paso hasta llegar a cero",
+        "Aumenta exponencialmente después del warmup",
+        "Aumenta linealmente durante el warmup y después disminuye en proporción a la inversa de la raíz cuadrada del número de paso"
       ],
-      "correct_option": "O(1)",
-      "difficulty_level": 8,
-      "source_quote": "Table 1: Maximum path lengths... Self-Attention: O(1)"
+      "correct_option": "Aumenta linealmente durante el warmup y después disminuye en proporción a la inversa de la raíz cuadrada del número de paso",
+      "difficulty_level": 3,
+      "source_quote": "This corresponds to increasing the learning rate linearly for the first warmup_steps training steps, and decreasing it thereafter proportionally to the inverse square root of the step number."
     },
     {
       "id": "thu4-tf-1",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 4",
+      "statement": "Para considerarse racional, un agente debe conocer de antemano el resultado real de cada una de sus acciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Rationality maximizes expected performance, while perfection maximizes actual performance."
     },
     {
       "id": "thu4-tf-2",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 4",
+      "statement": "En un entorno de tareas episódico, el episodio siguiente no depende de las acciones realizadas en los episodios anteriores.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "Crucially, the next episode does not depend on the actions taken in previous episodes."
     },
     {
       "id": "thu4-tf-3",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 4",
+      "statement": "Un agente reflejo basado en modelos puede mantener un estado interno dependiente del historial de percepciones para representar aspectos del mundo que no observa en ese momento.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "the agent should maintain some sort of internal state that depends on the percept history and thereby reflects at least some of the unobserved aspects of the current state."
     },
     {
       "id": "thu4-tf-4",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 4",
+      "statement": "La búsqueda en anchura sobre grafos descrita en la lectura conserva en memoria únicamente la rama actual del árbol de búsqueda.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "For breadth-first graph search in particular, every node generated remains in memory."
     },
     {
       "id": "thu4-tf-5",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 4",
+      "statement": "Una heurística admisible puede sobreestimar el costo real restante hasta la meta, siempre que eso reduzca el tiempo de búsqueda.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "An admissible heuristic is one that never overestimates the cost to reach the goal."
     },
     {
       "id": "thu4-mc-1",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Qué elementos se incluyen en la descripción PEAS de un entorno de tareas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Medida de desempeño, entorno, actuadores y sensores",
+        "Política, estados, acciones y soluciones",
+        "Percepciones, ejemplos, aprendizaje y búsqueda",
+        "Planificación, evaluación, arquitectura y estados"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Medida de desempeño, entorno, actuadores y sensores",
+      "difficulty_level": 2,
+      "source_quote": "we call this the PEAS (Performance, Environment, Actuators, Sensors) description."
     },
     {
       "id": "thu4-mc-2",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 4",
+      "statement": "En la arquitectura general de un agente que aprende, ¿qué función cumple el crítico (critic)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Selecciona directamente todas las acciones externas que ejecuta el agente",
+        "Genera por sí solo las percepciones que sustituyen a los sensores",
+        "Informa al elemento de aprendizaje sobre el desempeño del agente respecto a un estándar fijo",
+        "Modifica el estándar de desempeño para que siempre coincida con la conducta observada"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Informa al elemento de aprendizaje sobre el desempeño del agente respecto a un estándar fijo",
+      "difficulty_level": 3,
+      "source_quote": "The critic tells the learning element how well the agent is doing with respect to a fixed performance standard."
     },
     {
       "id": "thu4-mc-3",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Qué criterio utiliza la búsqueda de costo uniforme (uniform-cost search) para seleccionar el siguiente nodo que expandirá?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El menor valor estimado del costo restante hasta la meta, h(n)",
+        "El menor costo acumulado del camino desde el estado inicial, g(n)",
+        "La mayor profundidad alcanzada dentro del árbol de búsqueda",
+        "La suma del costo acumulado y de la estimación heurística, g(n) + h(n)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El menor costo acumulado del camino desde el estado inicial, g(n)",
+      "difficulty_level": 3,
+      "source_quote": "uniform-cost search expands the node n with the lowest path cost g(n)."
     },
     {
       "id": "thu4-mc-4",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Cómo procede la búsqueda en profundidad con profundización iterativa (iterative deepening depth-first search) cuando no se conoce la profundidad de la solución?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Mantiene un límite de profundidad fijo durante todos los intentos",
+        "Expande primero todos los nodos que tengan el menor valor de h(n)",
+        "Comienza con un límite infinito y lo reduce después de cada solución encontrada",
+        "Repite búsquedas con límites de profundidad crecientes: 0, 1, 2 y así sucesivamente, hasta encontrar una meta"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Repite búsquedas con límites de profundidad crecientes: 0, 1, 2 y así sucesivamente, hasta encontrar una meta",
+      "difficulty_level": 3,
+      "source_quote": "It does this by gradually increasing the limit—first 0, then 1, then 2, and so on—until a goal is found."
     },
     {
       "id": "thu4-mc-5",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Por qué el costo de una solución óptima de un problema relajado puede utilizarse como heurística admisible para el problema original?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque al eliminar restricciones, la solución óptima del problema relajado no puede costar más que la solución óptima del original",
+        "Porque el problema relajado conserva exactamente las mismas acciones legales que el problema original",
+        "Porque toda solución del problema relajado también cumple necesariamente las restricciones del problema original",
+        "Porque resolver el problema relajado exige explorar todos los estados del problema original"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque al eliminar restricciones, la solución óptima del problema relajado no puede costar más que la solución óptima del original",
+      "difficulty_level": 4,
+      "source_quote": "any optimal solution in the original problem is, by definition, also a solution in the relaxed problem; but the relaxed problem may have better solutions if the added edges provide short cuts."
     },
     {
       "id": "tue5-tf-1",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 5",
+      "statement": "El aprendizaje por refuerzo requiere que un supervisor proporcione ejemplos etiquetados de la acción correcta para cada estado que encuentra el agente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "we will study how agents can learn what to do in the absence of labeled examples of what to do."
     },
     {
       "id": "tue5-tf-2",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 5",
+      "statement": "En el aprendizaje por refuerzo pasivo, la política del agente permanece fija y el objetivo es aprender qué tan buena es mediante la estimación de las utilidades de los estados.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "In passive learning, the agent’s policy π is fixed [...] Its goal is simply to learn how good the policy is"
     },
     {
       "id": "tue5-tf-3",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 5",
+      "statement": "Q-learning necesita aprender explícitamente un modelo de probabilidades de transición P(s′ | s, a) para poder actualizar sus valores y seleccionar acciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "a TD agent that learns a Q-function does not need a model of the form P(s′|s,a), either for learning or for action selection."
     },
     {
       "id": "tue5-tf-4",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 5",
+      "statement": "La regla de actualización del aprendizaje por diferencias temporales (TD) utiliza diferencias entre estimaciones de utilidad de estados sucesivos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Because this update rule uses the difference in utilities between successive states, it is often called the temporal-difference, or TD, equation."
     },
     {
       "id": "tue5-tf-5",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 5",
+      "statement": "En espacios de estados grandes, la aproximación de funciones permite utilizar representaciones que generalizan entre estados, en lugar de depender de una tabla con un valor independiente para cada estado.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "In large state spaces, reinforcement learning algorithms must use an approximate functional representation in order to generalize over states."
     },
     {
       "id": "tue5-mc-1",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cómo calcula la estimación directa de utilidad (direct utility estimation) la utilidad de un estado a partir de los ensayos realizados?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Usando únicamente la recompensa inmediata recibida al entrar en ese estado",
+        "Promediando las recompensas acumuladas observadas desde ese estado hasta el final de cada ensayo, con el descuento correspondiente",
+        "Resolviendo primero un modelo completo de transiciones conocido de antemano",
+        "Asignando a todos los estados la mayor recompensa terminal observada"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Promediando las recompensas acumuladas observadas desde ese estado hasta el final de cada ensayo, con el descuento correspondiente",
+      "difficulty_level": 3,
+      "source_quote": "at the end of each sequence, the algorithm calculates the observed reward-to-go for each state and updates the estimated utility for that state accordingly, just by keeping a running average for each state in a table."
     },
     {
       "id": "tue5-mc-2",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 5",
+      "statement": "¿Qué caracteriza a un agente de programación dinámica adaptativa (adaptive dynamic programming, ADP) en el aprendizaje por refuerzo pasivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Aprende una política sin representar utilidades ni transiciones entre estados",
+        "Estima cada utilidad exclusivamente a partir del promedio de las recompensas terminales, ignorando las relaciones entre estados",
+        "Aprende el modelo de transición y utiliza las recompensas observadas en las ecuaciones de Bellman para calcular las utilidades",
+        "Actualiza los valores Q suponiendo que el modelo del entorno es conocido e invariable"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Aprende el modelo de transición y utiliza las recompensas observadas en las ecuaciones de Bellman para calcular las utilidades",
+      "difficulty_level": 4,
+      "source_quote": "An adaptive dynamic programming (or ADP) agent takes advantage of the constraints among the utilities of states by learning the transition model that connects them and solving the corresponding Markov decision process using a dynamic programming method."
     },
     {
       "id": "tue5-mc-3",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 5",
+      "statement": "Al actualizar el valor de una pareja estado–acción, ¿qué diferencia fundamental existe entre SARSA y Q-learning?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "SARSA utiliza el máximo valor Q del estado siguiente; Q-learning utiliza siempre la acción realmente ejecutada",
+        "SARSA ignora la recompensa observada; Q-learning la utiliza como único objetivo de aprendizaje",
+        "SARSA necesita un modelo explícito de transición; Q-learning necesita una política fija",
+        "SARSA utiliza el valor Q de la acción realmente ejecutada en el estado siguiente; Q-learning utiliza el máximo valor Q de ese estado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "SARSA utiliza el valor Q de la acción realmente ejecutada en el estado siguiente; Q-learning utiliza el máximo valor Q de ese estado",
+      "difficulty_level": 4,
+      "source_quote": "whereas Q-learning backs up the best Q-value from the state reached in the observed transition, SARSA waits until an action is actually taken and backs up the Q-value for that action."
     },
     {
       "id": "tue5-mc-4",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 5",
+      "statement": "¿Qué dos condiciones caracterizan a un esquema GLIE (greedy in the limit of infinite exploration)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Explorar cada pareja estado–acción un número no acotado de veces y hacer que la política tienda a ser voraz en el límite",
+        "Explorar cada acción una sola vez y mantener después una política uniformemente aleatoria",
+        "Elegir siempre la acción de mayor valor estimado desde el primer paso y descartar las acciones restantes",
+        "Dejar de explorar tras un número fijo de ensayos, aunque algunas acciones nunca se hayan probado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Explorar cada pareja estado–acción un número no acotado de veces y hacer que la política tienda a ser voraz en el límite",
+      "difficulty_level": 4,
+      "source_quote": "A GLIE scheme must try each action in each state an unbounded number of times [...] A GLIE scheme must also eventually become greedy"
     },
     {
       "id": "tue5-mc-5",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 5",
+      "statement": "¿Sobre qué actúan directamente los métodos de búsqueda de políticas (policy search) para mejorar la conducta del agente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Sobre un modelo de transición que debe reconstruir exactamente todas las probabilidades del entorno",
+        "Sobre una tabla de utilidades que debe converger antes de modificar cualquier acción",
+        "Sobre una representación de la política, ajustada según el desempeño observado",
+        "Sobre etiquetas de acciones correctas suministradas por un supervisor para cada estado"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Sobre una representación de la política, ajustada según el desempeño observado",
+      "difficulty_level": 3,
+      "source_quote": "Policy-search methods operate directly on a representation of the policy, attempting to improve it based on observed performance."
     }
   ]
 }
