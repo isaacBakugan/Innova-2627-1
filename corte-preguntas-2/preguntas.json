@@ -206,221 +206,221 @@
       "correct_option": "Verdadero",
       "difficulty_level": 4,
       "source_quote": "A neurodynamic system is inherently nonlinear. In fact, nonlinearity is essential for creating a universal computing machine."
-    }
+    },
     {
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué función de transferencia se utiliza en el modelo discreto inicial de la red de Hopfield presentado en la ecuación (5.2)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "satlins (saturating linear)",
+        "sigmoide logística",
+        "rectificador lineal (ReLU)",
+        "tangente hiperbólica sin saturación"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "satlins (saturating linear)",
+      "difficulty_level": 3,
+      "source_quote": "where satlins is the transfer function that is linear in the range [-1, 1], and saturates at 1 for inputs greater than 1 and at -1 for inputs less than -1."
     },
     {
       "id": "thu3-mc-2",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué término utiliza Stephen Grossberg para describir el proceso de normalización mediante el cual el sistema visual compensa la intensidad lumínica absoluta de una escena?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "segmentación emergente",
+        "descuento del iluminante (discounting the illuminant)",
+        "llenado perceptual (featural filling-in)",
+        "constancia de escala"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "descuento del iluminante (discounting the illuminant)",
+      "difficulty_level": 5,
+      "source_quote": "Since we see things in so many different lighting conditions, if we were not able to compensate for the absolute intensity of a scene, we would never learn to recognize things. Grossberg calls this process of normalization 'discounting the illuminant.'"
     },
     {
       "id": "thu3-mc-3",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 3",
+      "statement": "En una red neuronal celular (CNN de Chua y Yang), ¿cuál es la única componente no lineal presente en el circuito de cada celda?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El capacitor lineal de fuga C",
+        "La resistencia lineal de dispersión Rx",
+        "La fuente de corriente controlada por voltaje por tramos (piecewise linear)",
+        "La fuente de voltaje independiente Eij"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La fuente de corriente controlada por voltaje por tramos (piecewise linear)",
+      "difficulty_level": 6,
+      "source_quote": "The only nonlinear element in each cell is a piecewise linear voltage-controlled current source Iyx = (1/Rx)f(vxij) with characteristic f(·) as shown in Figure 5.17."
     },
     {
       "id": "thu3-mc-4",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué propiedad esencial de la matriz de pesos sinápticos se asume para facilitar el análisis de estabilidad de la red de Hopfield mediante funciones de Lyapunov?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Que la matriz sea estrictamente diagonal",
+        "Que la matriz sea simétrica (wji = wij)",
+        "Que la matriz posea determinante nulo",
+        "Que la matriz tenga valores propios únicamente imaginarios"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Que la matriz sea simétrica (wji = wij)",
+      "difficulty_level": 7,
+      "source_quote": "To facilitate the stability analysis of Hopfield network (5.28), we make the following three assumptions [Haykin, 2009]: 1. The matrix of synaptic weights is symmetric, that is, wji = wij for all i and j"
     },
     {
       "id": "thu3-mc-5",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cómo se define la condición de estabilidad global asintótica en un sistema neurodinámico autónomo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El sistema permanece indefinidamente oscilando alrededor de un ciclo límite periódico",
+        "El estado diverge hacia el infinito para cualquier condición inicial no acotada",
+        "El punto de equilibrio es estable y solo converge si la condición inicial está a una distancia infinitesimal",
+        "El punto de equilibrio es estable y todas las trayectorias del sistema convergen hacia dicho equilibrio cuando el tiempo t tiende a infinito"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "El punto de equilibrio es estable y todas las trayectorias del sistema convergen hacia dicho equilibrio cuando el tiempo t tiende a infinito",
+      "difficulty_level": 8,
+      "source_quote": "Definition 5.4 The equilibrium state x is said to be globally asymptotically stable if it is stable and all trajectories of the system converge to x as time t approaches infinity."
     },
     {
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 4",
+      "statement": "El modelo Transformer prescinde totalmente de mecanismos de recurrencia y circunvolución, basándose únicamente en mecanismos de atención.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely."
     },
     {
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 4",
+      "statement": "En el mecanismo de atención Dot-Product sin escalar, los gradientes tienden a crecer indefinidamente a medida que aumenta la dimensión dk.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients."
     },
     {
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 4",
+      "statement": "Tanto el encoder como el decoder del Transformer base están compuestos por una pila de N = 6 capas idénticas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "The encoder is composed of a stack of N = 6 identical layers... The decoder is also composed of a stack of N = 6 identical layers."
     },
     {
       "id": "tue4-tf-4",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 4",
+      "statement": "En la subcapa de self-attention del decodificador se permite que las posiciones atiendan libremente a posiciones futuras o subsiguientes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking... ensures that the predictions for position i can depend only on the known outputs at positions less than i."
     },
     {
       "id": "tue4-tf-5",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 4",
+      "statement": "El número mínimo de operaciones secuenciales requeridas por capa en Self-Attention es de orden O(1), a diferencia de las capas recurrentes que requieren O(n).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations."
     },
     {
       "id": "tue4-mc-1",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 4",
+      "statement": "¿Por qué factor se dividen los productos punto en el cálculo de Scaled Dot-Product Attention?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Por la raíz cuadrada de la dimensión dk",
+        "Por el tamaño del vocabulario de entrada",
+        "Por el número total de capas N del encoder",
+        "Por la longitud máxima de la secuencia"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Por la raíz cuadrada de la dimensión dk",
+      "difficulty_level": 2,
+      "source_quote": "We compute the dot products of the query with all keys, divide each by sqrt(dk), and apply a softmax function to obtain the weights on the values."
     },
     {
       "id": "tue4-mc-2",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 4",
+      "statement": "¿Cuál es la dimensión interna (dff) empleada en las redes feed-forward dentro de cada capa del modelo base?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "512",
+        "2048",
+        "1024",
+        "64"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "2048",
+      "difficulty_level": 5,
+      "source_quote": "The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality dff = 2048."
     },
     {
       "id": "tue4-mc-3",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 4",
+      "statement": "¿Qué función cumplen las funciones sinusoidales de codificación posicional en el Transformer?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Reducir la dispersión de los gradientes en el optimizador Adam",
+        "Normalizar las salidas de las capas densas intermedias",
+        "Permitir al modelo incorporar y atender información sobre el orden relativo o absoluto de la secuencia",
+        "Calcular matrices de pesos compartidos entre el encoder y el decoder"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Permitir al modelo incorporar y atender información sobre el orden relativo o absoluto de la secuencia",
+      "difficulty_level": 6,
+      "source_quote": "in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence. To this end, we add 'positional encodings' to the input embeddings"
     },
     {
       "id": "tue4-mc-4",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 4",
+      "statement": "¿De dónde provienen las claves (keys) y valores (values) en la subcapa de atención cruzada (encoder-decoder attention) del decodificador?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "De la salida de la capa de embeddings del decoder",
+        "De las representaciones generadas por la salida del encoder",
+        "De las proyecciones lineales de la capa previa del decoder",
+        "De una matriz fija de parámetros posicionales aprendidos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "De las representaciones generadas por la salida del encoder",
+      "difficulty_level": 7,
+      "source_quote": "In 'encoder-decoder attention' layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder."
     },
     {
       "id": "tue4-mc-5",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 4",
+      "statement": "Según la Tabla 1 del artículo, ¿cuál es la longitud máxima de camino (Maximum Path Length) entre dos posiciones cualesquiera en una capa de Self-Attention?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "O(n)",
+        "O(log_k(n))",
+        "O(n · d)",
+        "O(1)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "O(1)",
+      "difficulty_level": 8,
+      "source_quote": "Table 1: Maximum path lengths... Self-Attention: O(1)"
     },
     {
       "id": "thu4-tf-1",
