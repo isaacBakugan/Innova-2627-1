@@ -426,141 +426,141 @@
       "id": "thu8-tf-1",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 8",
+      "statement": "En la optimización por enjambre de partículas (PSO), las investigaciones muestran que los estorninos coordinan sus movimientos basándose en las siete aves vecinas[cite: 1, 2].",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "Research shows, for example, that starlings coordinate their movements based on seven neighboring birds [Young et al., 2013]."
     },
     {
       "id": "thu8-tf-2",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 8",
+      "statement": "En la optimización por colonia de hormigas (ACO), la probabilidad de que una hormiga visite una ciudad disminuye a medida que aumenta el factor de feromona entre las ciudades[cite: 7, 8].",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "The higher the value of ph(i, j), the higher the likelihood of traveling to city j."
     },
     {
       "id": "thu8-tf-3",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 8",
+      "statement": "Los primeros experimentos de hardware evolutivo realizados en Berlín se ejecutaron directamente en componentes físicos debido a la falta de computadoras electrónicas para modelar los sistemas[cite: 10].",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The experiments in hardware evolution were conducted in real hardware primarily because the researchers conducting the experiments had no electronic computers available to model the dynamics of the systems and execute the algorithms in software."
     },
     {
       "id": "thu8-tf-4",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 8",
+      "statement": "En el algoritmo NSGA-II para optimización multicriterio, una solución domina a otra únicamente cuando es estrictamente mejor en todos los criterios evaluados[cite: 14].",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "A solution dominates another when it is equally good or better in all measurable criteria, but better in at least one criterion."
     },
     {
       "id": "thu8-tf-5",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 8",
+      "statement": "En la computación evolutiva interactiva, la evaluación de la función de aptitud la realiza directamente el juicio humano en lugar de una ecuación matemática explícita[cite: 11, 12].",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "In such cases, it's possible to use a human's judgment as the fitness function and guide evolution to solutions that fit the individual's judgment. The result is something called interactive evolutionary computation..."
     },
     {
       "id": "thu8-mc-1",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Cuál es el tamaño de población mínimo requerido para ejecutar el algoritmo de evolución diferencial[cite: 4, 5]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Al menos 2 individuos",
+        "Al menos 4 individuos",
+        "Al menos 10 individuos",
+        "Al menos 50 individuos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Al menos 4 individuos",
+      "difficulty_level": 3,
+      "source_quote": "The population size needs to be at least four individuals and as with all evolutionary or related methods, the population is initialized at random or based on some prior knowledge."
     },
     {
       "id": "thu8-mc-2",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 8",
+      "statement": "En PSO, ¿qué problema puede surgir si no se impone un límite máximo a la velocidad ($V_{max}$) de las partículas[cite: 3]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Las velocidades pueden incrementarse en magnitud sin control ni límite",
+        "La función objetivo deja de evaluarse de forma automática",
+        "La memoria PersonalBest de cada partícula se borra en cada iteración",
+        "Las partículas quedan completamente paralizadas en su posición inicial"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Las velocidades pueden incrementarse en magnitud sin control ni límite",
+      "difficulty_level": 4,
+      "source_quote": "One issue that comes with these update equations is that the particles can see their velocities increase in magnitude without bound... So, a limit is placed on the velocity in each dimension, Vmax."
     },
     {
       "id": "thu8-mc-3",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Qué ventaja aportaron las antenas evolucionadas de banda S diseñadas por Lohn et al. para la misión LADEE de la NASA[cite: 10, 11]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Aumentaron la cobertura de enlace descendente en un 65% y redujeron los costos en un 44%",
+        "Redujeron el peso total del satélite en un 80%",
+        "Eliminaron la necesidad de utilizar canales de comunicación por radiofrecuencia",
+        "Incrementaron la velocidad de órbita lunar en un 50%"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Aumentaron la cobertura de enlace descendente en un 65% y redujeron los costos en un 44%",
+      "difficulty_level": 5,
+      "source_quote": "The antennas provided \"65% increased downlink coverage and 44% cost savings for the mission\" [Lohn et al., 2015]."
     },
     {
       "id": "thu8-mc-4",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Cuál de las siguientes fue una de las primeras aplicaciones prácticas de la computación evolutiva interactiva descrita por Caldwell y Johnson (1991)[cite: 13]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El diseño de software para predicción meteorológica",
+        "La composición automatizada de música clásica",
+        "La creación de retratos hablados en la policía (police sketch artistry)",
+        "La optimización del flujo de agua en tuberías"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La creación de retratos hablados en la policía (police sketch artistry)",
+      "difficulty_level": 4,
+      "source_quote": "In this same vein, one of the first practical applications of interactive evolutionary computation was in area of police sketch artistry [Caldwell and Johnson, 1991]..."
     },
     {
       "id": "thu8-mc-5",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 8",
+      "statement": "En el algoritmo NSGA-II, ¿cómo se le asigna la distancia de apilamiento/hacinamiento (crowding score) a las soluciones ubicadas en los extremos de cada frente[cite: 14]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se les asigna un valor de cero para eliminarlas de la población",
+        "Se les asigna el valor promedio de las distancias euclidianas",
+        "Se les asigna un valor de infinito positivo para garantizar su propagación",
+        "Se les asigna un valor proporcional al número total de frentes"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Se les asigna un valor de infinito positivo para garantizar su propagación",
+      "difficulty_level": 7,
+      "source_quote": "Individuals at the extremes of each front are assigned a value of positive infinity so that they will always be propagated into the next generation."
     }
   ]
 }
