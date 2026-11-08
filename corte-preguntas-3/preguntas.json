@@ -146,281 +146,281 @@
       "id": "thu7-tf-1",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 7",
+      "statement": "En el ejemplo de la caja negra, una forma de parar el algoritmo es cuando el mejor valor encontrado es menor que 10^-6.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "until the value of the best solution is lower than a threshold, say, 10^-6. This threshold would work in our problem if we had a hunch that zero was the minimum"
     },
     {
       "id": "thu7-tf-2",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 7",
+      "statement": "El cruce (recombinación) solo puede combinar dos padres; con más de dos padres el operador deja de ser válido.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "Recombination, in terms of both crossover and blending, can be extended to more than two parents. There are no restrictions that evolutionary operators follow the mechanics of the operations as found in nature."
     },
     {
       "id": "thu7-tf-3",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 7",
+      "statement": "Si un algoritmo no usa selección élitista y tampoco tiene una mutación que pueda alcanzar todos los estados, no se puede asegurar la convergencia con probabilidad 1 al óptimo global.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "without elitist selection and without a mutation operation that can reach all possible states, this proof of convergence with probability 1 does not hold."
     },
     {
       "id": "thu7-tf-4",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 7",
+      "statement": "En la selección por torneo, un individuo que no es el mejor de su grupo nunca puede pasar a la siguiente generación.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "allows the possibility that solutions that are less than best can propagate into a future generation."
     },
     {
       "id": "thu7-tf-5",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 7",
+      "statement": "Según el texto, el crossover de un punto puede dejar juntos los segmentos cercanos a los extremos del vector, lo que no siempre es deseable.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "This \"one-point\" crossover operator has the sometimes undesirable property of forcing segments that are near each end of the solution vector to remain together."
     },
     {
       "id": "thu7-mc-1",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Qué es la convergencia prematura según el capítulo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La población llega al óptimo global en muy pocas generaciones",
+        "Se pierden todas las soluciones porque la mutación es demasiado grande",
+        "El algoritmo nunca termina porque no tiene un criterio de parada",
+        "La población se vuelve homogénea alrededor de una solución que no es el óptimo global, y el progreso se frena"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La población se vuelve homogénea alrededor de una solución que no es el óptimo global, y el progreso se frena",
+      "difficulty_level": 5,
+      "source_quote": "Premature convergence, which occurs when a population becomes homogeneous to a solution that is not the global optimum"
     },
     {
       "id": "thu7-mc-2",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Por qué la mutación con distribución de Cauchy puede ayudar a salir de óptimos locales?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque tiene colas más gruesas, así que es más probable hacer un salto grande",
+        "Porque siempre genera valores más cercanos al padre que una gaussiana",
+        "Porque no tiene media ni desviación estándar, así que no necesita parámetros",
+        "Porque reemplaza el operador de selección"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque tiene colas más gruesas, así que es más probable hacer un salto grande",
+      "difficulty_level": 7,
+      "source_quote": "The Cauchy distribution has \"fatter tails\" than a corresponding Gaussian distribution, thus the probability of mutating a real-valued parameter to a greater extent is markedly greater. This can be helpful for escaping from locally optimal solutions."
     },
     {
       "id": "thu7-mc-3",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 7",
+      "statement": "En la selección por coma (μ, λ), ¿de dónde se eligen los μ padres de la siguiente generación?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "De los μ padres actuales, que nunca mueren",
+        "De los μ + λ individuos juntos",
+        "Al azar, sin tener en cuenta la aptitud",
+        "Solo de los λ descendientes"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Solo de los λ descendientes",
+      "difficulty_level": 4,
+      "source_quote": "in \"comma\" selection, the parents die each generation and a surplus of offspring must be created ... the best μ individuals are selected only from among the λ offspring to be parents for the next generation."
     },
     {
       "id": "thu7-mc-4",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 7",
+      "statement": "En una mutación gaussiana con media cero y σ = 1, ¿qué probabilidad aproximada tiene el valor de salir fuera del intervalo [-1, 1]?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "0.05",
+        "0.32",
+        "0.50",
+        "0.68"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "0.32",
+      "difficulty_level": 6,
+      "source_quote": "with σ = 1, the probability of a zero-mean Gaussian random variable returning a value greater than 1 or less than −1 is approximately 0.32."
     },
     {
       "id": "thu7-mc-5",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Por qué los métodos basados en gradiente pueden fallar en la función de Rastrigin?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque la función no es continua",
+        "Porque tiene una única solución y el gradiente la sobrepasa",
+        "Porque tiene muchos óptimos locales creados por la función coseno, y el gradiente solo lleva al óptimo local más cercano",
+        "Porque solo funciona con representaciones binarias"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque tiene muchos óptimos locales creados por la función coseno, y el gradiente solo lleva al óptimo local más cercano",
+      "difficulty_level": 9,
+      "source_quote": "gradient methods will likely fail to find the global optimum solution because each gradient is associated only with the local optima created by the effects of the cosine function."
     },
     {
       "id": "tue8-tf-1",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 8",
+      "statement": "En el ejemplo de la línea de regresión con error absoluto, la recta evolucionada tiene un error medio absoluto menor que la de mínimos cuadrados.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The mean absolute error is 38.299, which is lower than the root mean squared error from the least-squares model above. (It also happens to be lower than the mean absolute error for the least-squares model at 38.432.)"
     },
     {
       "id": "tue8-tf-2",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 8",
+      "statement": "Según el texto, un error de tipo II (no detectar un objeto que sí está) siempre cuesta menos que un error de tipo I.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "the type I error (a false alarm) may have a very different cost than the type II error (a miss). Here, a miss may be much more costly because of the danger posed by bumping into an underwater explosive."
     },
     {
       "id": "tue8-tf-3",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 8",
+      "statement": "El texto dice que los mínimos cuadrados rara vez son apropiados en situaciones reales de este tipo de análisis.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "The least-squares approach to estimating coefficients is mathematically tractable, but can be of limited utility when placed under this sort of scrutiny."
     },
     {
       "id": "tue8-tf-4",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 8",
+      "statement": "En el criterio AIC, agregar un parámetro solo conviene si reduce −2 ln(f(y|θ)) en al menos dos puntos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "Each parameter that you add has to pay for itself by lowering −2 ln(f(y|θ)) by at least two points."
     },
     {
       "id": "tue8-tf-5",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 8",
+      "statement": "En el ejemplo del ruido de hielo, el mejor modelo encontrado por la evolución tiene cuatro términos AR y un término MA.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "The best-evolved model after 100 generations had four lag terms in A(q) and one lag term in C(q)."
     },
     {
       "id": "tue8-mc-1",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 8",
+      "statement": "Según la navaja de Occam (maxim of parsimony), ¿qué debe hacer quien diseña un modelo matemático?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Usar siempre el modelo con más parámetros para ajustar mejor los datos",
+        "Usar solo modelos lineales",
+        "Mantener el modelo tan simple como sea posible, pero no más simple",
+        "Ajustar el modelo solo al ruido de los datos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Mantener el modelo tan simple como sea posible, pero no más simple",
+      "difficulty_level": 4,
+      "source_quote": "This maxim, as paraphrased by Albert Einstein, says to keep models as simple as possible and no simpler."
     },
     {
       "id": "tue8-mc-2",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 8",
+      "statement": "En el criterio AIC (12.13), ¿qué representa el término 2p?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "El número de observaciones de los datos",
+        "La probabilidad de que el modelo sea correcto",
+        "El error cuadrático medio de las predicciones",
+        "La penalización por el número de parámetros libres del modelo"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La penalización por el número de parámetros libres del modelo",
+      "difficulty_level": 5,
+      "source_quote": "The second part involves the cost for each parameter, where there are p parameters. Essentially, the goodness-of-fit component is penalized by adding a factor that is twice the number of free parameters."
     },
     {
       "id": "tue8-mc-3",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 8",
+      "statement": "En el criterio MDL (12.14), ¿cuánto debe ganar cada parámetro adicional para justificar su inclusión?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "0.5 log2 n por parámetro",
+        "2 puntos por parámetro",
+        "0.5 p por observación",
+        "Nada, MDL no penaliza parámetros"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "0.5 log2 n por parámetro",
+      "difficulty_level": 7,
+      "source_quote": "In the MDL, each additional parameter must pay for 0.5 log2 n of reduction in −log2(f(y|θ)), otherwise it hasn't \"paid its own way.\""
     },
     {
       "id": "tue8-mc-4",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 8",
+      "statement": "¿Por qué el método RPEM necesita que la persona elija la forma del modelo antes de optimizar los parámetros?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Porque los modelos RPEM no tienen parámetros",
+        "Porque el gradiente solo ajusta los parámetros de una forma de modelo dada, así que la forma debe elegirse antes",
+        "Porque el error cuadrático nunca se puede calcular",
+        "Porque RPEM no usa datos de entrada"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Porque el gradiente solo ajusta los parámetros de una forma de modelo dada, así que la forma debe elegirse antes",
+      "difficulty_level": 9,
+      "source_quote": "If you wanted to use an RPEM method generally, you'd have to select the model form by hand and then use the gradient method of RPEM to find values for parameters."
     },
     {
       "id": "tue8-mc-5",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 8",
+      "statement": "¿Qué ventaja tiene la evolución frente a RPEM para modelar series de tiempo, según el capítulo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Siempre encuentra el modelo verdadero del proceso",
+        "No necesita ningún criterio de información",
+        "Solo sirve para modelos con un término de error",
+        "Busca el orden del modelo y sus parámetros al mismo tiempo, sin depender del gradiente"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Busca el orden del modelo y sus parámetros al mismo tiempo, sin depender del gradiente",
+      "difficulty_level": 8,
+      "source_quote": "evolutionary methods do not need to rely on gradient information offers a broader advantage in that a search can be made for appropriate model order at the same time parameters are optimized."
     },
     {
       "id": "thu8-tf-1",
