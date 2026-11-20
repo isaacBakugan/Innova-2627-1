@@ -12,7 +12,7 @@
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 2,
+      "difficulty_level": 5,
       "source_quote": "An n-gram model is defined as a Markov chain of order n - 1. ... the probability of character c_i depends only on the immediately preceding characters, not on any other characters."
     },
     {
@@ -25,7 +25,7 @@
         "Falso"
       ],
       "correct_option": "Falso",
-      "difficulty_level": 2,
+      "difficulty_level": 6,
       "source_quote": "A different way of describing the probability of a sequence is with a measure called perplexity, defined as Perplexity(c_1:N) = P(c_1:N)^(-1/N). Perplexity can be thought of as the reciprocal of probability... If some characters are more likely than others, and the model reflects that, then the model will have a perplexity less than 100."
     },
     {
@@ -38,7 +38,7 @@
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
+      "difficulty_level": 3,
       "source_quote": "The simplest type of smoothing was suggested by Pierre-Simon Laplace... he assumes that with two more trials, one might be true and one false. Laplace smoothing (also called add-one smoothing)... adjusts the probability of low-frequency counts."
     },
     {
@@ -51,7 +51,7 @@
         "Falso"
       ],
       "correct_option": "Falso",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "source_quote": "First, the degree of relevance of a document is a single bit, so there is no guidance as to how to order the relevant documents for presentation."
     },
     {
@@ -64,7 +64,7 @@
         "Falso"
       ],
       "correct_option": "Falso",
-      "difficulty_level": 2,
+      "difficulty_level": 4,
       "source_quote": "Finite-state information extraction is less successful at recovering information in highly variable format, such as text written by humans on a variety of subjects."
     },
     {
@@ -79,7 +79,7 @@
         "La relación entre los falsos positivos y los verdaderos negativos en toda la Web"
       ],
       "correct_option": "La proporción de documentos dentro del conjunto devuelto que realmente son relevantes",
-      "difficulty_level": 1,
+      "difficulty_level": 3,
       "source_quote": "Precision measures the proportion of documents in the result set that are actually relevant."
     },
     {
@@ -94,7 +94,7 @@
         "Es una página con una frecuencia inversa de documentos (IDF) muy elevada"
       ],
       "correct_option": "Es una página que enlaza hacia múltiples páginas consideradas autoridades sobre el tema",
-      "difficulty_level": 2,
+      "difficulty_level": 5,
       "source_quote": "A page is considered an authority on the query to the degree that other pages in the relevant set point to it. A page is considered a hub to the degree that it points to other authoritative pages in the relevant set."
     },
     {
@@ -109,7 +109,7 @@
         "Permiten diseñar manualmente plantillas en lenguajes como Perl"
       ],
       "correct_option": "Son probabilísticos (toleran ruido o palabras faltantes) y pueden entrenarse automáticamente con datos",
-      "difficulty_level": 2,
+      "difficulty_level": 6,
       "source_quote": "HMMs have two big advantages over FSAs for extraction. First, HMMs are probabilistic, and thus tolerant to noise... Second, HMMs can be trained from data; they don't require laborious engineering of templates..."
     },
     {
@@ -124,7 +124,7 @@
         "Se elige la clase que comprima mejor el mensaje agregando la menor cantidad de bytes extra"
       ],
       "correct_option": "Se elige la clase que comprima mejor el mensaje agregando la menor cantidad de bytes extra",
-      "difficulty_level": 3,
+      "difficulty_level": 8,
       "source_quote": "Whichever class compresses better—adds the fewer number of additional bytes for the new message—is the predicted class."
     },
     {
@@ -139,7 +139,7 @@
         "Extraer miles de relaciones en paralelo desde la Web sin intervención humana ni esquemas previos"
       ],
       "correct_option": "Extraer miles de relaciones en paralelo desde la Web sin intervención humana ni esquemas previos",
-      "difficulty_level": 3,
+      "difficulty_level": 7,
       "source_quote": "In practice, these systems work on all relations in parallel, without a human input of any kind—a system that could read on its own and build up its own database. Such a system would be relation-independent... because of this the field has been called machine reading."
     },
     {
