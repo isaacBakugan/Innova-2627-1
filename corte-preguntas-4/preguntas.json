@@ -1,146 +1,146 @@
 {
-  "team": "",
+  "team": "Innova",
   "assignment": "corte-preguntas-4",
   "questions": [
     {
       "id": "tue9-tf-1",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 9",
+      "statement": "Un modelo de n-gramas funciona como una cadena de Markov de orden n - 1, en la que la probabilidad de un carácter depende únicamente de los n - 1 caracteres previos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "An n-gram model is defined as a Markov chain of order n - 1. ... the probability of character c_i depends only on the immediately preceding characters, not on any other characters."
     },
     {
       "id": "tue9-tf-2",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 9",
+      "statement": "Al evaluar un modelo de lenguaje, obtener una mayor perplejidad significa que el modelo le asigna una probabilidad más alta al texto de prueba y, por lo tanto, es mejor.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "A different way of describing the probability of a sequence is with a measure called perplexity, defined as Perplexity(c_1:N) = P(c_1:N)^(-1/N). Perplexity can be thought of as the reciprocal of probability... If some characters are more likely than others, and the model reflects that, then the model will have a perplexity less than 100."
     },
     {
       "id": "tue9-tf-3",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 9",
+      "statement": "El suavizado de Laplace suma conteos iniciales adicionales a los n-gramas poco frecuentes o no vistos para evitar que el modelo asigne probabilidades iguales a cero.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "The simplest type of smoothing was suggested by Pierre-Simon Laplace... he assumes that with two more trials, one might be true and one false. Laplace smoothing (also called add-one smoothing)... adjusts the probability of low-frequency counts."
     },
     {
       "id": "tue9-tf-4",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 9",
+      "statement": "El modelo booleano en recuperación de información ordena los documentos encontrados según una puntuación continua calculada a partir de la frecuencia de las palabras.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
+      "correct_option": "Falso",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "First, the degree of relevance of a document is a single bit, so there is no guidance as to how to order the relevant documents for presentation."
     },
     {
       "id": "tue9-tf-5",
       "reading": "tuesday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 9",
+      "statement": "Los extractores de información basados en autómatas de estado finito obtienen mejores resultados con textos informales de estructura libre que con documentos estandarizados.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "Finite-state information extraction is less successful at recovering information in highly variable format, such as text written by humans on a variety of subjects."
     },
     {
       "id": "tue9-mc-1",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 9",
+      "statement": "¿Cómo se define la métrica de Precisión (Precision) al evaluar un sistema de recuperación de información?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La proporción de documentos relevantes de toda la colección que el sistema logró recuperar",
+        "La proporción de documentos dentro del conjunto devuelto que realmente son relevantes",
+        "La suma ponderada de las consultas del usuario y los enlaces salientes de cada página",
+        "La relación entre los falsos positivos y los verdaderos negativos en toda la Web"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "La proporción de documentos dentro del conjunto devuelto que realmente son relevantes",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "Precision measures the proportion of documents in the result set that are actually relevant."
     },
     {
       "id": "tue9-mc-2",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 9",
+      "statement": "Dentro del algoritmo HITS para búsquedas en la Web, ¿qué distingue a una página clasificada como Hub?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Es una página sin enlaces salientes que funciona únicamente como destino final",
+        "Es una página cuyo contenido fue comprimido sin pérdidas mediante el algoritmo LZW",
+        "Es una página que enlaza hacia múltiples páginas consideradas autoridades sobre el tema",
+        "Es una página con una frecuencia inversa de documentos (IDF) muy elevada"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Es una página que enlaza hacia múltiples páginas consideradas autoridades sobre el tema",
+      "difficulty_level": 2,
+      "source_quote": "A page is considered an authority on the query to the degree that other pages in the relevant set point to it. A page is considered a hub to the degree that it points to other authoritative pages in the relevant set."
     },
     {
       "id": "tue9-mc-3",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 9",
+      "statement": "¿Qué dos ventajas ofrecen los Modelos Ocultos de Markov (HMM) frente a los Autómatas de Estado Finito (FSA) en la extracción de información?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Son probabilísticos (toleran ruido o palabras faltantes) y pueden entrenarse automáticamente con datos",
+        "Son deterministas y eliminan la necesidad de calcular probabilidades de transición",
+        "Prescinden por completo de los estados ocultos y del uso de prefijos",
+        "Permiten diseñar manualmente plantillas en lenguajes como Perl"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Son probabilísticos (toleran ruido o palabras faltantes) y pueden entrenarse automáticamente con datos",
+      "difficulty_level": 2,
+      "source_quote": "HMMs have two big advantages over FSAs for extraction. First, HMMs are probabilistic, and thus tolerant to noise... Second, HMMs can be trained from data; they don't require laborious engineering of templates..."
     },
     {
       "id": "tue9-mc-4",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 9",
+      "statement": "Al clasificar textos (como filtros de spam) usando algoritmos de compresión como LZW, ¿cómo se decide a qué categoría pertenece un nuevo mensaje?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se elige la clase cuyo modelo genere el diccionario más grande de palabras vacías",
+        "Se elige la clase que tenga menos cadenas en su vocabulario inicial",
+        "Se elige la clase que logre una perplejidad igual a cero sobre el mensaje",
+        "Se elige la clase que comprima mejor el mensaje agregando la menor cantidad de bytes extra"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Se elige la clase que comprima mejor el mensaje agregando la menor cantidad de bytes extra",
+      "difficulty_level": 3,
+      "source_quote": "Whichever class compresses better—adds the fewer number of additional bytes for the new message—is the predicted class."
     },
     {
       "id": "tue9-mc-5",
       "reading": "tuesday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 9",
+      "statement": "A diferencia de la extracción de información tradicional limitada a un dominio, ¿qué busca lograr la Lectura Automática (Machine Reading) en sistemas como TextRunner?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Traducir documentos legales antiguos a lenguajes de programación de forma automática",
+        "Convertir páginas web en imágenes comprimidas sin pérdida de calidad",
+        "Generar oraciones aleatorias usando cadenas de Markov de orden alto",
+        "Extraer miles de relaciones en paralelo desde la Web sin intervención humana ni esquemas previos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Extraer miles de relaciones en paralelo desde la Web sin intervención humana ni esquemas previos",
+      "difficulty_level": 3,
+      "source_quote": "In practice, these systems work on all relations in parallel, without a human input of any kind—a system that could read on its own and build up its own database. Such a system would be relation-independent... because of this the field has been called machine reading."
     },
     {
       "id": "thu9-tf-1",
