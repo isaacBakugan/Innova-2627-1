@@ -146,141 +146,141 @@
       "id": "thu9-tf-1",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 9",
+      "statement": "El mapeo de influencia (influence mapping) es una técnica popularizada en los juegos de estrategia en tiempo real (RTS) que le permite a la IA rastrear el control militar de ambos bandos en distintas zonas del mapa.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "Influence mapping is a technique pioneered and widely applied in real-time strategy games, where the AI keeps track of the areas of military influence for both sides."
     },
     {
       "id": "thu9-tf-2",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 9",
+      "statement": "Al usar un radio de efecto limitado en mapas de influencia, las pequeñas influencias de unidades lejanas se suman de forma acumulativa a través de grandes distancias.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "The disadvantage of this approach is that small influences don't add up over large distances."
     },
     {
       "id": "thu9-tf-3",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 9",
+      "statement": "En los análisis tácticos multicapa, se combinan distintas capas simples (como seguridad, visibilidad y distancia) en una sola puntuación ponderada para elegir ubicaciones óptimas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "The three base tactical analyses are finally combined into a single value that demonstrates how good a location is for a radar base. The combination might be of the form: Quality = Security x Visibility x Distance"
     },
     {
       "id": "thu9-tf-4",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 9",
+      "statement": "Al modelar áreas de seguridad con autómatas celulares, una regla básica establece que una casilla se considera segura si al menos el 50% de sus vecinos (4 de 8 en una cuadrícula) también son seguros.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "The rule is simple: A location is secure if at least four of its eight neighbors (or 50% for edges) are secure."
     },
     {
       "id": "thu9-tf-5",
       "reading": "thursday-week-9",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 9",
+      "statement": "La única forma viable de implementar análisis de mapas de influencia es que el nivel del juego esté construido originalmente sobre una cuadrícula de baldosas (tiles).",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "This does not mean that the level itself has to be tile based, of course. Very few RTS games are purely tile based anymore... For a non-tile-based level, we can impose a grid over the geometry and use the grid for tactical analysis."
     },
     {
       "id": "thu9-mc-1",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Qué técnica de análisis de terreno evalúa qué tan expuesta está una posición frente a los enemigos mediante el trazado de líneas de visión (raycasting)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Mapa de frag (frag-map)",
+        "Autómata celular disperso",
+        "Mapa de visibilidad (Visibility Map)",
+        "Convolución separable"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Mapa de visibilidad (Visibility Map)",
+      "difficulty_level": 3,
+      "source_quote": "The second most common terrain analysis we have worked with is a visibility map. There are many kinds of tactics that require some estimation of how exposed a location is. ... check the line of sight between the location and other significant locations in the level."
     },
     {
       "id": "thu9-mc-2",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Qué problema ocurre si se aplican filtros de convolución de desfoque indefinidamente sobre un conjunto fijo de unidades sin usar decaimiento ni sesgo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "La influencia se difumina hasta que todo el mapa queda con el mismo valor constante y se pierden las diferencias",
+        "La matriz se invierte y genera valores negativos en todo el escenario",
+        "Las unidades quedan bloqueadas y no pueden desplazarse por el nivel",
+        "Se satura la memoria RAM provocando un desbordamiento de pila"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "La influencia se difumina hasta que todo el mapa queda con el mismo valor constante y se pierden las diferencias",
+      "difficulty_level": 7,
+      "source_quote": "If we run this filter over and over on an unchanging set of unit influences, we will end up with the whole level at the same influence value (which will be low). The blur acts to smooth out differences, until eventually there will be no difference left."
     },
     {
       "id": "thu9-mc-3",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 9",
+      "statement": "En autómatas celulares usados en simuladores como SimCity, ¿cómo se denomina la vecindad que evalúa las 8 celdas adyacentes alrededor de cada casilla?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Vecindad de Von Neumann (4 celdas)",
+        "Vecindad de Moore (8 celdas)",
+        "Vecindad de Manhattan en 3D",
+        "Vecindad de Voronoi continua"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Vecindad de Moore (8 celdas)",
+      "difficulty_level": 6,
+      "source_quote": "Figure 6.18 shows one cell in a cellular automaton. It has a neighborhood of locations whose values it depends on. ... A location is secure if at least four of its eight neighbors (or 50% for edges) are secure."
     },
     {
       "id": "thu9-mc-4",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 9",
+      "statement": "Para manejar la falta de información causada por la niebla de guerra (fog-of-war) en un mapa de influencia, ¿qué estrategia se suele incorporar en el análisis?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Asumir que todas las zonas ocultas contienen al ejército enemigo completo",
+        "Revelar automáticamente el mapa completo a la IA ignorando el rango de visión",
+        "Asignar valores desconocidos o neutros a las áreas no visibles para no subestimar ni sobreestimar al enemigo",
+        "Multiplicar por infinito el valor de las celdas que permanecen ocultas"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Asignar valores desconocidos o neutros a las áreas no visibles para no subestimar ni sobreestimar al enemigo",
+      "difficulty_level": 6,
+      "source_quote": "If we do a tactical analysis on the units we can see, then we run the risk of underestimating the enemy forces. ... In outdoor environments units typically have a maximum distance they can see... This is often called 'fog-of-war'... The influence map on the left of Figure 6.12 shows only the units visible to the white side."
     },
     {
       "id": "thu9-mc-5",
       "reading": "thursday-week-9",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 9",
+      "statement": "¿Cuál es la principal ventaja algorítmica de usar el método de inundación de mapa (Map Flooding) basado en Dijkstra frente a la convolución pura?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Garantiza un consumo nulo de memoria durante la ejecución",
+        "Permite integrar las dificultades del terreno durante la propagación y se calcula muy rápido",
+        "Elimina por completo el uso de bucles en la implementación",
+        "Funciona exclusivamente en mapas compuestos por una sola celda"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Permite integrar las dificultades del terreno durante la propagación y se calcula muy rápido",
+      "difficulty_level": 8,
+      "source_quote": "On the other hand, there exists a very fast algorithm to calculate the influence values, based on the Dijkstra algorithm... The algorithm is useful beyond simple influence mapping and can also incorporate terrain analysis while performing its calculations."
     },
     {
       "id": "tue10-tf-1",
