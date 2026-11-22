@@ -286,281 +286,281 @@
       "id": "tue10-tf-1",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 10",
+      "statement": "En el juego de la vida de Conway, un organismo aislado o un par de contadores desaparece en el primer movimiento, sin importar dónde se coloquen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "A single organism or any pair of counters, wherever placed, will obviously vanish on the first move."
     },
     {
       "id": "tue10-tf-2",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 10",
+      "statement": "En el juego de la vida, un contador con dos o tres vecinos muere por aislamiento.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Every counter with two or three neighboring counters survives for the next generation."
     },
     {
       "id": "tue10-tf-3",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 10",
+      "statement": "En el juego de la vida, una celda vacía con exactamente tres vecinos se convierte en un nacimiento en el siguiente movimiento.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "Each empty cell adjacent to exactly three neighbors--no more, no fewer--is a birth cell."
     },
     {
       "id": "tue10-tf-4",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 10",
+      "statement": "Conway ya demostró que ningún patrón del juego de la vida puede crecer sin límite.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "Conway conjectures that no pattern can grow without limit."
     },
     {
       "id": "tue10-tf-5",
       "reading": "tuesday-week-10",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 10",
+      "statement": "Una figura finita que se mueve horizontal o verticalmente hacia un espacio vacío no puede superar la mitad de la velocidad de la luz.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "Movement of a finite figure horizontally or vertically into empty space, Conway has also shown, cannot exceed half the speed of light."
     },
     {
       "id": "tue10-mc-1",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 10",
+      "statement": "¿Cómo se llama la figura estable en forma de cuadrado de 2x2 que aparece en el juego de la vida?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Planeador",
+        "Bloque",
+        "Parpadeador (blinker)",
+        "Colmena (beehive)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Bloque",
+      "difficulty_level": 2,
+      "source_quote": "Pattern d becomes a stable \"block\" (two-by-two square) on the second move."
     },
     {
       "id": "tue10-mc-2",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 10",
+      "statement": "¿Qué patrón oscila con periodo 2, alternando entre una fila horizontal y una vertical de tres contadores?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Bloque",
+        "Colmena (beehive)",
+        "Parpadeador (blinker)",
+        "Planeador (glider)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Parpadeador (blinker)",
+      "difficulty_level": 3,
+      "source_quote": "It alternates between horizontal and vertical rows of three. Conway calls it a \"blinker\"."
     },
     {
       "id": "tue10-mc-3",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 10",
+      "statement": "Según Gardner, ¿qué produce en el juego de la vida una fila horizontal de siete contadores?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se extingue por completo en el primer movimiento",
+        "Produce cuatro bloques y cuatro parpadeadores",
+        "Produce el pentadecatlón, con periodo 15",
+        "Produce una granja de miel (honey farm)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Produce una granja de miel (honey farm)",
+      "difficulty_level": 5,
+      "source_quote": "seven produce the honey farm"
     },
     {
       "id": "tue10-mc-4",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 10",
+      "statement": "¿A qué velocidad se desplaza el planeador (glider) por el tablero?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "A la velocidad de la luz",
+        "A un cuarto de la velocidad de la luz",
+        "A la mitad de la velocidad de la luz",
+        "A un octavo de la velocidad de la luz"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "A un cuarto de la velocidad de la luz",
+      "difficulty_level": 8,
+      "source_quote": "Since the glider replicates itself in the same orientation after four moves, and has traveled one cell diagonally, one says that it glides across the field at a fourth the speed of light."
     },
     {
       "id": "tue10-mc-5",
       "reading": "tuesday-week-10",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 10",
+      "statement": "¿Qué premio ofreció Conway a quien demostrara o refutara su conjetura sobre el crecimiento ilimitado de los patrones?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "50 dólares",
+        "500 dólares",
+        "Un ejemplar firmado de la revista",
+        "5000 dólares"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "50 dólares",
+      "difficulty_level": 7,
+      "source_quote": "Conway has offered a prize of $50 to the first person who can prove or disprove the conjecture before the end of the year."
     },
     {
       "id": "tue11-tf-1",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 11",
+      "statement": "Con la regla 254, a partir de una sola celda negra en el centro se forma un patrón creciente uniformemente negro.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "And the picture at the top of the page shows that starting with a single black cell in the center this rule then leads to a simple growing pattern uniformly filled with black."
     },
     {
       "id": "tue11-tf-2",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 11",
+      "statement": "Con la regla 250, a partir de una sola celda negra se obtiene un patrón que alterna blanco y negro como un tablero de ajedrez.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "Starting from a single black cell, this rule leads to a checkerboard pattern."
     },
     {
       "id": "tue11-tf-3",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 11",
+      "statement": "Según Wolfram, con la regla 30 el comportamiento se vuelve simple después de unos mil pasos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "One might have thought that after maybe a thousand steps the behavior would eventually resolve into something simple."
     },
     {
       "id": "tue11-tf-4",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 11",
+      "statement": "Con la regla 110, el comportamiento resultante puede predecirse fácilmente a partir de la regla original, porque cada estructura es simple.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 9,
+      "source_quote": "And as a result it becomes almost impossible to predict"
     },
     {
       "id": "tue11-tf-5",
       "reading": "tuesday-week-11",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 11",
+      "statement": "La regla 90 produce un patrón caótico, sin ninguna estructura anidada visible.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "each of these pieces is essentially just a smaller copy of the whole pattern"
     },
     {
       "id": "tue11-mc-1",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 11",
+      "statement": "¿Qué regla produce, cerca del borde izquierdo, franjas diagonales que aparecen a intervalos de exactamente 80 pasos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Regla 30",
+        "Regla 90",
+        "Regla 110",
+        "Regla 254"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Regla 110",
+      "difficulty_level": 6,
+      "source_quote": "And beginning near the left-hand edge, there are diagonal stripes that occur at intervals of exactly 80 steps."
     },
     {
       "id": "tue11-mc-2",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 11",
+      "statement": "Según Wolfram, ¿después de cuántos pasos surge una estructura repetitiva bastante simple en la regla 110?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Después de 2780 pasos",
+        "Después de 240 pasos",
+        "Después de 80 pasos",
+        "Después de 7 pasos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Después de 2780 pasos",
+      "difficulty_level": 5,
+      "source_quote": "But after 2780 steps, a fairly simple repetitive structure emerges."
     },
     {
       "id": "tue11-mc-3",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 11",
+      "statement": "Según Wolfram, ¿qué ocurre con la secuencia de colores que aparece justo debajo de la celda negra inicial de la regla 30?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Se repite cada 80 pasos",
+        "No se repite en al menos el primer millón de pasos",
+        "Se repite cada 240 pasos",
+        "Se vuelve completamente blanca después de 500 pasos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "No se repite en al menos el primer millón de pasos",
+      "difficulty_level": 8,
+      "source_quote": "in the first million steps in this sequence, for example, it never repeats"
     },
     {
       "id": "tue11-mc-4",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 11",
+      "statement": "Según Wolfram, ¿cómo se compara el juego de la vida de Conway con la regla 110?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Son idénticos paso a paso",
+        "No guardan ninguna relación con los autómatas de una dimensión",
+        "Solo producen patrones estables de cuatro contadores",
+        "Su comportamiento es en algunos aspectos similar al de la regla 110"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Su comportamiento es en algunos aspectos similar al de la regla 110",
+      "difficulty_level": 7,
+      "source_quote": "whose behavior is in some respects similar to the rule 110 cellular automaton discussed in this chapter"
     },
     {
       "id": "tue11-mc-5",
       "reading": "tuesday-week-11",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 11",
+      "statement": "Según Wolfram, ¿cuánto tiempo toma hacer a mano la imagen de la regla 30 de la página 27?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Unos cinco minutos",
+        "Alrededor de una hora",
+        "Unas pocas semanas",
+        "Unos pocos segundos"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Alrededor de una hora",
+      "difficulty_level": 4,
+      "source_quote": "For it takes roughly an hour to make the picture on page 27 by hand"
     }
   ]
 }
